@@ -1,0 +1,1699 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-12 11:11+0100\n"
+"PO-Revision-Date: 2019-06-12 11:11+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+#: wp_wc_fs_license_manager.php:1259
+msgid "Done, Reloading..."
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:1410 includes/license_key_generator.php:141
+#: includes/license_manager.php:296 includes/metabox_licenses_list.php:74
+#: includes/metabox_rules_list.php:57
+msgid "Edit"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:1411 includes/license_key_generator.php:60
+#: includes/license_key_generator.php:142 includes/license_manager.php:81
+#: includes/license_manager.php:297 includes/metabox_licenses_list.php:75
+#: includes/metabox_rules_list.php:58
+msgid "Delete"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:1412 includes/license_manager.php:298
+msgid "Copy Encrypted Key"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:1442
+msgid "There is no license key in the database matching your filter settings"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:1810
+msgid "Please Login to be able to see license key details"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:1836
+msgid "Done"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:1842 wp_wc_fs_license_manager.php:3999
+#: wp_wc_fs_license_manager.php:5951 wp_wc_fs_license_manager.php:5973
+#: includes/license_manager.php:33
+msgid "License Manager"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:1850
+msgid "Resend License Keys Email"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:1853
+msgid "Assign New License Keys"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:1854
+msgid "Edit Assigned License Keys"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:1870 includes/settings_page.php:419
+msgid "License Keys for Order #[order_id]"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:1871 includes/settings_page.php:420
+msgid "[site_name] | License Keys for Order #[order_id]"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:1872 includes/settings_page.php:421
+msgid ""
+"<p>Dear [bfname] [blname]</p><p>Thank you for your order, those are your "
+"license keys for the order #[order_id]</p><p>you can see all your past "
+"orders and license keys <a title=\"My Account\" href="
+"\"[myaccount_url]\">here</a>.</p>"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:1994 wp_wc_fs_license_manager.php:2171
+#: wp_wc_fs_license_manager.php:2264 includes/add_generator_rule.php:22
+#: includes/add_license_key.php:22 includes/edit_generator_rule.php:41
+#: includes/edit_license_key.php:96 includes/license_key_generator.php:92
+#: includes/license_key_generator.php:183 includes/license_manager.php:152
+#: includes/license_manager.php:203 includes/license_manager.php:335
+#: includes/lm_export.php:40 includes/lm_export.php:95
+#: includes/lm_export.php:149 includes/lm_export.php:187
+#: includes/lm_import.php:35 includes/lm_import.php:179
+msgid "Product"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:2040 wp_wc_fs_license_manager.php:2116
+#: wp_wc_fs_license_manager.php:2222 wp_wc_fs_license_manager.php:2302
+msgid "Can be used"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:2040 wp_wc_fs_license_manager.php:2116
+#: wp_wc_fs_license_manager.php:2222 wp_wc_fs_license_manager.php:2302
+msgid "time(s)"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:2044 wp_wc_fs_license_manager.php:2120
+#: wp_wc_fs_license_manager.php:2226 wp_wc_fs_license_manager.php:2306
+msgid "<strong>Expires</strong> "
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:2065 wp_wc_fs_license_manager.php:2327
+msgid "Set as redeemed"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:2123
+msgid "Replace license key"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:2130
+msgid "Replace license key(s)"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:2130
+msgid " or "
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:2136
+msgid "Assign new license key"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:2144 includes/functions.php:8
+msgid "Doesn't Expire"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:2148 wp_wc_fs_license_manager.php:2156
+#: includes/functions.php:12 includes/functions.php:20
+msgid "None"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:2245
+msgid "Click here to see your"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:2948
+msgid "product variation"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:2953
+msgid "License Key(s) are delivered per purchase. Only"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:2953
+msgid "purchase(s) possible."
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:2958
+msgid "Sorry, There is no license keys available for"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:2958
+msgid "Please remove this item or lower the quantity, For now we have"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:2958
+msgid "License key(s)"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:2958
+msgid "for this product."
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:3931
+msgid "License Keys stock running low"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:3978
+msgid "Please add license keys for"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:3978
+msgid "License Key left"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:4010
+msgid "There is no notifications"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:4031
+msgid "Please add more license key for the following items"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:4194
+msgid "Duplicate License key was not added to the datebase."
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:4400 includes/add_license_key.php:70
+#: includes/edit_license_key.php:146 includes/license_manager.php:205
+#: includes/license_manager.php:337 includes/metabox_licenses_list.php:24
+#: includes/product_metabox.php:255
+msgid "License Key"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:4494
+msgid "License"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:5281
+msgid "Export your data before deactivating"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:5281
+msgid "FS License Manager"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:5281
+msgid ""
+"Database tables will be deleted, to deactivate without deleting the database "
+"table disable this option in <b>License Manager -> Settings -> Extra "
+"Settings</b>"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:5952 includes/license_key_generator.php:25
+msgid "License Key Generator"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:5953 includes/add_license_key.php:12
+#: includes/add_license_key.php:171
+msgid "Add License Key"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:5954 includes/add_generator_rule.php:12
+#: includes/add_generator_rule.php:151
+msgid "Add Generator Rule"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:5955
+msgid "Settings"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:5956
+msgid "Import"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:5957
+msgid "Export"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:5958 includes/support.php:29
+msgid "License And Support"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:5964 wp_wc_fs_license_manager.php:5965
+msgid "Welcome"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:6148
+msgid ""
+"Replace the existing keys(if any) and reload the page?\n"
+"\n"
+"1. If there is no license keys available for the product this action will "
+"only delete the assigned keys.\n"
+"2. If the available keys are less then the required number of keys this "
+"action will delete the assigned keys and assign the available ones \"Assign "
+"new license key\" option can later be used to assign the rest of the keys.\n"
+"3. If the license keys generator is enabled and there is no keys available "
+"for the product new keys will be generated.\n"
+"4. The option will only add keys equivalent the the ordered number, any "
+"manually assigned keys won't be added"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:6149 includes/license_key_generator.php:101
+msgid "Generate"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:6150
+msgid "license key(s)?"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:6151
+msgid "Delete This item?"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:6152
+msgid ""
+"Replace this license key and reload the page?\n"
+"\n"
+"1. If there is no license keys available for the product this action will "
+"only delete the assigned key.\n"
+"2. If the license keys generator is enabled and there is no keys available "
+"for the product a new key will be generated."
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:6153
+msgid ""
+"Add a new license key to this item and reload the page?\n"
+"\n"
+"1. If there is no available keys for the product this action won't add "
+"anything.\n"
+"2. If the license keys generator is enabled and there is no keys available "
+"for the product a new key will be generated."
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:6154
+msgid ""
+"Replace this items license keys and reload the page\n"
+"\n"
+"1. If there is no license keys available for the product this action will "
+"only delete the assigned keys.\n"
+"2. If the available keys are less then the required number of keys this "
+"action will delete the assigned keys and assign the available ones \"Assign "
+"new license key\" option can later be used to assign the rest of the keys.\n"
+"3. If the license keys generator  is enabled and there is no keys available "
+"for the product new keys will be generated."
+msgstr ""
+
+#: includes/about.php:4
+msgid "About"
+msgstr ""
+
+#: includes/about.php:8 includes/support.php:46
+msgid "This copy of FS License Manager is licensed to"
+msgstr ""
+
+#: includes/about.php:13 includes/support.php:51
+msgid "Envato Username"
+msgstr ""
+
+#: includes/about.php:18
+msgid "License Type"
+msgstr ""
+
+#: includes/about.php:23
+msgid "Envato Item Name"
+msgstr ""
+
+#: includes/about.php:28
+msgid "Envato Item ID"
+msgstr ""
+
+#: includes/about.php:33
+msgid "Purchsae Date"
+msgstr ""
+
+#: includes/about.php:38
+msgid "Supported Until"
+msgstr ""
+
+#: includes/about.php:43
+msgid "Envato Purchase Code"
+msgstr ""
+
+#: includes/about.php:48 includes/support.php:67
+msgid "License Status"
+msgstr ""
+
+#: includes/add_generator_rule.php:48 includes/add_license_key.php:48
+#: includes/edit_generator_rule.php:67 includes/edit_license_key.php:122
+#: includes/license_key_generator.php:93
+#: includes/license_key_generator.php:184 includes/license_manager.php:204
+#: includes/license_manager.php:336 includes/lm_import.php:59
+#: includes/lm_import.php:221 includes/product_metabox.php:229
+#: includes/product_metabox.php:388
+msgid "Variation"
+msgstr ""
+
+#: includes/add_generator_rule.php:72 includes/edit_generator_rule.php:93
+#: includes/license_key_generator.php:94
+#: includes/license_key_generator.php:185 includes/product_metabox.php:414
+#: includes/settings_page.php:294
+msgid "Prefix"
+msgstr ""
+
+#: includes/add_generator_rule.php:81 includes/edit_generator_rule.php:102
+#: includes/product_metabox.php:423 includes/settings_page.php:303
+msgid "Number of chunks"
+msgstr ""
+
+#: includes/add_generator_rule.php:90 includes/edit_generator_rule.php:111
+#: includes/product_metabox.php:432 includes/settings_page.php:312
+msgid "Chunk length"
+msgstr ""
+
+#: includes/add_generator_rule.php:99 includes/edit_generator_rule.php:120
+#: includes/license_key_generator.php:97
+#: includes/license_key_generator.php:188 includes/product_metabox.php:441
+#: includes/settings_page.php:321
+msgid "Suffix"
+msgstr ""
+
+#: includes/add_generator_rule.php:108 includes/add_license_key.php:115
+#: includes/edit_license_key.php:212 includes/lm_import.php:101
+#: includes/lm_import.php:263 includes/product_metabox.php:299
+msgid "Maximum Instance Number"
+msgstr ""
+
+#: includes/add_generator_rule.php:113 includes/add_license_key.php:121
+#: includes/lm_import.php:106 includes/lm_import.php:268
+#: includes/product_metabox.php:304
+msgid ""
+"Requires the implementation for the Tracking API, Ignore this field if your "
+"product is untraceable(the Tracking API is designed for software products, "
+"themes... digital products in general)"
+msgstr ""
+
+#: includes/add_generator_rule.php:121 includes/add_license_key.php:158
+#: includes/edit_generator_rule.php:138 includes/edit_license_key.php:345
+#: includes/lm_import.php:140 includes/lm_import.php:302
+#: includes/product_metabox.php:338 includes/product_metabox.php:459
+#: includes/settings_page.php:339
+msgid "Validity (Days)"
+msgstr ""
+
+#: includes/add_generator_rule.php:126 includes/add_license_key.php:163
+#: includes/lm_import.php:145 includes/lm_import.php:307
+#: includes/product_metabox.php:343
+msgid ""
+"Number of <b>Days</b> before the license key expires<br>Expiration date will "
+"be calculated based on this value after purchase completed, keep "
+"<b>Expiration Date</b> fields empty if you want to use this option<br><b>Set "
+"to 0 if your product doesn't expire</b>"
+msgstr ""
+
+#: includes/add_generator_rule.php:135 includes/edit_generator_rule.php:147
+#: includes/functions.php:109 includes/license_key_generator.php:100
+#: includes/license_key_generator.php:191 includes/settings_page.php:349
+msgid "Active"
+msgstr ""
+
+#: includes/add_generator_rule.php:139 includes/edit_generator_rule.php:159
+#: includes/license_key_generator.php:153 includes/metabox_rules_list.php:68
+#: includes/settings_page.php:361
+msgid "No"
+msgstr ""
+
+#: includes/add_generator_rule.php:140 includes/edit_generator_rule.php:160
+#: includes/license_key_generator.php:153 includes/metabox_rules_list.php:68
+#: includes/settings_page.php:362
+msgid "Yes"
+msgstr ""
+
+#: includes/add_generator_rule.php:143
+msgid "No license key will be generated if this option is set to <b>No</b>"
+msgstr ""
+
+#: includes/add_license_key.php:52 includes/product_metabox.php:124
+msgid "Main Product"
+msgstr ""
+
+#: includes/add_license_key.php:76 includes/product_metabox.php:260
+msgid ""
+"1. This field support HTML<br>2. This field support multiline "
+"text<br><strong>Example:</strong><br>Cart Number: 1234321441411222<br>CVV: "
+"552<br>Expiration Date: 01/19"
+msgstr ""
+
+#: includes/add_license_key.php:85 includes/edit_license_key.php:155
+#: includes/product_metabox.php:268
+msgid "Image License Key"
+msgstr ""
+
+#: includes/add_license_key.php:91 includes/edit_license_key.php:164
+#: includes/product_metabox.php:274
+msgid "You can use an image as a license key"
+msgstr ""
+
+#: includes/add_license_key.php:100 includes/edit_license_key.php:187
+#: includes/lm_import.php:86 includes/lm_import.php:248
+#: includes/product_metabox.php:284
+msgid "Number Of Times To Deliver This Key"
+msgstr ""
+
+#: includes/add_license_key.php:106 includes/edit_license_key.php:193
+#: includes/lm_import.php:92 includes/lm_import.php:254
+#: includes/product_metabox.php:290
+msgid ""
+"The status will only change to sold after the key is sold the number of "
+"times in the input above"
+msgstr ""
+
+#: includes/add_license_key.php:130 includes/edit_license_key.php:304
+#: includes/lm_import.php:114 includes/lm_import.php:276
+#: includes/product_metabox.php:312
+msgid "Expiration Date"
+msgstr ""
+
+#: includes/add_license_key.php:143 includes/edit_license_key.php:271
+#: includes/edit_license_key.php:295 includes/edit_license_key.php:319
+#: includes/license_manager.php:261 includes/lm_import.php:127
+#: includes/lm_import.php:289 includes/product_metabox.php:325
+msgid "Day"
+msgstr ""
+
+#: includes/add_license_key.php:145 includes/edit_license_key.php:273
+#: includes/edit_license_key.php:297 includes/edit_license_key.php:321
+#: includes/lm_import.php:129 includes/lm_import.php:291
+#: includes/product_metabox.php:327
+msgid "Year"
+msgstr ""
+
+#: includes/add_license_key.php:148
+msgid ""
+"Keep <b>Expiration Date</b></b> fields empty if your product doesn't expire"
+msgstr ""
+
+#: includes/edit_generator_rule.php:30 includes/edit_generator_rule.php:167
+msgid "Edit Generator Rule"
+msgstr ""
+
+#: includes/edit_generator_rule.php:129 includes/license_key_generator.php:98
+#: includes/license_key_generator.php:189 includes/license_manager.php:207
+#: includes/license_manager.php:339 includes/product_metabox.php:450
+#: includes/settings_page.php:330
+msgid "Instance"
+msgstr ""
+
+#: includes/edit_license_key.php:50
+msgid "Remove the old image"
+msgstr ""
+
+#: includes/edit_license_key.php:85
+msgid "Edit License Key"
+msgstr ""
+
+#: includes/edit_license_key.php:169
+msgid "See Old Image"
+msgstr ""
+
+#: includes/edit_license_key.php:171
+msgid "If you upload a replacement this will be automatically removed"
+msgstr ""
+
+#: includes/edit_license_key.php:175
+msgid "No Image"
+msgstr ""
+
+#: includes/edit_license_key.php:202
+msgid "Remaining delivery times"
+msgstr ""
+
+#: includes/edit_license_key.php:221
+msgid "Remaining Instance Number"
+msgstr ""
+
+#: includes/edit_license_key.php:230
+msgid "Owner First Name"
+msgstr ""
+
+#: includes/edit_license_key.php:239
+msgid "Owner Last Name"
+msgstr ""
+
+#: includes/edit_license_key.php:248
+msgid "Owner Email Address"
+msgstr ""
+
+#: includes/edit_license_key.php:257 includes/metabox_licenses_list.php:25
+msgid "Creation Date"
+msgstr ""
+
+#: includes/edit_license_key.php:280
+msgid "Activation Date"
+msgstr ""
+
+#: includes/edit_license_key.php:328 includes/license_manager.php:213
+#: includes/license_manager.php:345 includes/lm_export.php:24
+#: includes/lm_export.php:79 includes/lm_export.php:133
+msgid "Status"
+msgstr ""
+
+#: includes/edit_license_key.php:354 includes/settings_page.php:442
+msgid "Order ID"
+msgstr ""
+
+#: includes/edit_license_key.php:368 includes/edit_license_key.php:388
+msgid "Delete active domains/device IDs"
+msgstr ""
+
+#: includes/edit_license_key.php:406
+msgid "Update License Key"
+msgstr ""
+
+#: includes/functions.php:92
+msgid "Jan"
+msgstr ""
+
+#: includes/functions.php:93
+msgid "Feb"
+msgstr ""
+
+#: includes/functions.php:94
+msgid "Mar"
+msgstr ""
+
+#: includes/functions.php:95
+msgid "Apr"
+msgstr ""
+
+#: includes/functions.php:96
+msgid "May"
+msgstr ""
+
+#: includes/functions.php:97
+msgid "Jun"
+msgstr ""
+
+#: includes/functions.php:98
+msgid "Jul"
+msgstr ""
+
+#: includes/functions.php:99
+msgid "Aug"
+msgstr ""
+
+#: includes/functions.php:100
+msgid "Sep"
+msgstr ""
+
+#: includes/functions.php:101
+msgid "Oct"
+msgstr ""
+
+#: includes/functions.php:102
+msgid "Nov"
+msgstr ""
+
+#: includes/functions.php:103
+msgid "Dec"
+msgstr ""
+
+#: includes/functions.php:108
+msgid "Available"
+msgstr ""
+
+#: includes/functions.php:110
+msgid "Expired"
+msgstr ""
+
+#: includes/functions.php:111
+msgid "Inactive"
+msgstr ""
+
+#: includes/functions.php:112
+msgid "Returned"
+msgstr ""
+
+#: includes/functions.php:113
+msgid "Sold"
+msgstr ""
+
+#: includes/functions.php:114
+msgid "Redeemed"
+msgstr ""
+
+#: includes/license_key_generator.php:49
+msgid "Automatic License Key Generator Rules"
+msgstr ""
+
+#: includes/license_key_generator.php:49 includes/license_manager.php:66
+msgid "Add New"
+msgstr ""
+
+#: includes/license_key_generator.php:55 includes/license_manager.php:72
+msgid "Select bulk action"
+msgstr ""
+
+#: includes/license_key_generator.php:57 includes/license_manager.php:74
+msgid "Bulk Actions"
+msgstr ""
+
+#: includes/license_key_generator.php:58 includes/welcome.php:69
+msgid "Activate"
+msgstr ""
+
+#: includes/license_key_generator.php:59 includes/support.php:76
+msgid "Deactivate"
+msgstr ""
+
+#: includes/license_key_generator.php:62 includes/license_manager.php:83
+msgid "Apply"
+msgstr ""
+
+#: includes/license_key_generator.php:90
+#: includes/license_key_generator.php:181 includes/license_manager.php:201
+#: includes/license_manager.php:333
+msgid "Select All"
+msgstr ""
+
+#: includes/license_key_generator.php:91
+#: includes/license_key_generator.php:182 includes/license_manager.php:202
+#: includes/license_manager.php:334 includes/metabox_licenses_list.php:22
+msgid "ID"
+msgstr ""
+
+#: includes/license_key_generator.php:95
+#: includes/license_key_generator.php:186
+msgid "Chunks Number"
+msgstr ""
+
+#: includes/license_key_generator.php:96
+#: includes/license_key_generator.php:187
+msgid "Chunks Length"
+msgstr ""
+
+#: includes/license_key_generator.php:99
+#: includes/license_key_generator.php:190 includes/license_manager.php:212
+#: includes/license_manager.php:344 includes/metabox_licenses_list.php:27
+#: includes/metabox_rules_list.php:22
+msgid "Validity"
+msgstr ""
+
+#: includes/license_key_generator.php:134
+msgid "Select"
+msgstr ""
+
+#: includes/license_key_generator.php:169 includes/metabox_rules_list.php:76
+msgid "There is no automatic license Key generator rules in the database"
+msgstr ""
+
+#: includes/license_manager.php:41
+msgid "Import result:"
+msgstr ""
+
+#: includes/license_manager.php:45
+msgid "Total"
+msgstr ""
+
+#: includes/license_manager.php:50
+msgid "Imported"
+msgstr ""
+
+#: includes/license_manager.php:55
+msgid "Duplicate"
+msgstr ""
+
+#: includes/license_manager.php:66 includes/product_metabox.php:52
+msgid "License Keys"
+msgstr ""
+
+#: includes/license_manager.php:75
+msgid "Change status to: Available"
+msgstr ""
+
+#: includes/license_manager.php:76
+msgid "Change status to: Expired"
+msgstr ""
+
+#: includes/license_manager.php:77
+msgid "Change status to: Active"
+msgstr ""
+
+#: includes/license_manager.php:78
+msgid "Change status to: Inactive"
+msgstr ""
+
+#: includes/license_manager.php:79
+msgid "Change status to: Sold"
+msgstr ""
+
+#: includes/license_manager.php:80
+msgid "Change status to: Returned"
+msgstr ""
+
+#: includes/license_manager.php:139
+msgid "Filter:"
+msgstr ""
+
+#: includes/license_manager.php:141
+msgid "License key"
+msgstr ""
+
+#: includes/license_manager.php:143
+msgid "Extended Filter"
+msgstr ""
+
+#: includes/license_manager.php:146
+msgid "Customer First Name"
+msgstr ""
+
+#: includes/license_manager.php:147
+msgid "Customer E-mail"
+msgstr ""
+
+#: includes/license_manager.php:153
+msgid "Product ID - Product Name"
+msgstr ""
+
+#: includes/license_manager.php:174
+msgid "License key Status"
+msgstr ""
+
+#: includes/license_manager.php:184
+msgid "Filter"
+msgstr ""
+
+#: includes/license_manager.php:185
+msgid "Clear Filter Result"
+msgstr ""
+
+#: includes/license_manager.php:189
+msgid "1. You can just use a part of the First name not the whole name."
+msgstr ""
+
+#: includes/license_manager.php:190
+msgid "2. You Don't have to use all the options."
+msgstr ""
+
+#: includes/license_manager.php:192
+msgid ""
+"3. Extended Filter is for HTML/Multi-line license keys, use the unique part "
+"of the license key not the whole code, Make sure to use all the filter "
+"option possible to narrow down the number of keys that have to be processed."
+msgstr ""
+
+#: includes/license_manager.php:194
+msgid ""
+"4. Enable Extended Filter to filter by a part of the license key not the "
+"whole key."
+msgstr ""
+
+#: includes/license_manager.php:206 includes/license_manager.php:338
+msgid "Owner"
+msgstr ""
+
+#: includes/license_manager.php:208 includes/license_manager.php:340
+#: includes/metabox_licenses_list.php:29
+msgid "Deliver times"
+msgstr ""
+
+#: includes/license_manager.php:209 includes/license_manager.php:341
+msgid "Created"
+msgstr ""
+
+#: includes/license_manager.php:210 includes/license_manager.php:342
+msgid "Activated"
+msgstr ""
+
+#: includes/license_manager.php:211 includes/license_manager.php:343
+msgid "Expires"
+msgstr ""
+
+#: includes/license_manager.php:257
+msgid "No Validity Period"
+msgstr ""
+
+#: includes/license_manager.php:265
+msgid "Days"
+msgstr ""
+
+#: includes/license_manager.php:281
+msgid "Order #"
+msgstr ""
+
+#: includes/license_manager.php:322
+msgid "There is no license key in the database"
+msgstr ""
+
+#: includes/license_manager.php:355
+msgid "Use this if you want to replace a license key in the order page, Ctrl+C"
+msgstr ""
+
+#: includes/lm_export.php:12
+msgid "Export License Manager Data & Settings"
+msgstr ""
+
+#: includes/lm_export.php:17
+msgid "1. Export License Keys"
+msgstr ""
+
+#: includes/lm_export.php:64 includes/lm_export.php:119
+#: includes/lm_export.php:173
+msgid "Export License Keys"
+msgstr ""
+
+#: includes/lm_export.php:71
+msgid "2. Export License Keys (Editable Unencrypted License keys)"
+msgstr ""
+
+#: includes/lm_export.php:72
+msgid ""
+"Note: Use this option if you are going to edit the file in Excel or any "
+"other CSV file editor."
+msgstr ""
+
+#: includes/lm_export.php:126
+msgid "3. Export License Keys (Unencrypted License keys)"
+msgstr ""
+
+#: includes/lm_export.php:180
+msgid "4. Export Generator Rules"
+msgstr ""
+
+#: includes/lm_export.php:210
+msgid "Export Generator Rules"
+msgstr ""
+
+#: includes/lm_export.php:217
+msgid "5. Export Plugin Settings"
+msgstr ""
+
+#: includes/lm_export.php:223
+msgid "Export Plugin Settings"
+msgstr ""
+
+#: includes/lm_import.php:12
+msgid "Import License Manager Data & Settings"
+msgstr ""
+
+#: includes/lm_import.php:18
+msgid "1. Import Image License Keys From .zip File"
+msgstr ""
+
+#: includes/lm_import.php:24
+msgid "A zip file that contains image license keys(No sub-folders)"
+msgstr ""
+
+#: includes/lm_import.php:26
+msgid "Zip File"
+msgstr ""
+
+#: includes/lm_import.php:132 includes/lm_import.php:294
+msgid "Keep Expiration Date fields empty if your product doesn't expire"
+msgstr ""
+
+#: includes/lm_import.php:152 includes/lm_import.php:314
+#: includes/lm_import.php:338 includes/lm_import.php:361
+#: includes/lm_import.php:384 includes/lm_import.php:409
+msgid "Import License Keys"
+msgstr ""
+
+#: includes/lm_import.php:153
+msgid "Upload progress:"
+msgstr ""
+
+#: includes/lm_import.php:162
+msgid "2. Import License Keys From .txt File"
+msgstr ""
+
+#: includes/lm_import.php:168
+msgid "A text file that contains license keys only one key in each line"
+msgstr ""
+
+#: includes/lm_import.php:170 includes/lm_import.php:330
+#: includes/lm_import.php:353 includes/lm_import.php:376
+#: includes/lm_import.php:401 includes/lm_import.php:423
+msgid "CSV File"
+msgstr ""
+
+#: includes/lm_import.php:322
+msgid "3. Import License Keys"
+msgstr ""
+
+#: includes/lm_import.php:328 includes/lm_import.php:374
+#: includes/lm_import.php:399
+msgid "CSV file generated by the plugin in the export page"
+msgstr ""
+
+#: includes/lm_import.php:345
+msgid ""
+"4. Import License Keys (File modified in Excel or any other CSV file editor)"
+msgstr ""
+
+#: includes/lm_import.php:346
+msgid ""
+"Note: Only file exported using \"Export License Keys (Editable Unencrypted "
+"License keys)\" are supported by this option."
+msgstr ""
+
+#: includes/lm_import.php:368
+msgid "5. Import License Keys (Unencrypted License Keys)"
+msgstr ""
+
+#: includes/lm_import.php:393
+msgid "6. Import License Keys (Compatibility Mode)"
+msgstr ""
+
+#: includes/lm_import.php:416
+msgid "7. Import Generator Rules"
+msgstr ""
+
+#: includes/lm_import.php:431
+msgid "Import Generator Rules"
+msgstr ""
+
+#: includes/lm_import.php:438
+msgid "8. Import Plugin Settings"
+msgstr ""
+
+#: includes/lm_import.php:445
+msgid ".fslmsettings File"
+msgstr ""
+
+#: includes/lm_import.php:453
+msgid "Import Plugin Settings"
+msgstr ""
+
+#: includes/metabox_licenses_list.php:19
+msgid "Total available keys for all variations:"
+msgstr ""
+
+#: includes/metabox_licenses_list.php:23
+msgid "Variation ID"
+msgstr ""
+
+#: includes/metabox_licenses_list.php:26
+msgid "Expires on"
+msgstr ""
+
+#: includes/metabox_licenses_list.php:28
+msgid "Instances"
+msgstr ""
+
+#: includes/metabox_licenses_list.php:93
+msgid "There is no available license key in the database for this product"
+msgstr ""
+
+#: includes/metabox_rules_list.php:15
+msgid "ID "
+msgstr ""
+
+#: includes/metabox_rules_list.php:16
+msgid "Variation "
+msgstr ""
+
+#: includes/metabox_rules_list.php:17
+msgid "Prefix "
+msgstr ""
+
+#: includes/metabox_rules_list.php:18
+msgid "Chunks Number "
+msgstr ""
+
+#: includes/metabox_rules_list.php:19
+msgid "Chunks Length "
+msgstr ""
+
+#: includes/metabox_rules_list.php:20
+msgid "Suffix "
+msgstr ""
+
+#: includes/metabox_rules_list.php:21
+msgid "Instance "
+msgstr ""
+
+#: includes/metabox_rules_list.php:23
+msgid "Active "
+msgstr ""
+
+#: includes/product_metabox.php:51
+msgid "Basic"
+msgstr ""
+
+#: includes/product_metabox.php:53
+msgid "License Generator"
+msgstr ""
+
+#: includes/product_metabox.php:54 includes/settings_page.php:29
+msgid "API"
+msgstr ""
+
+#: includes/product_metabox.php:62
+msgid "Delivered Quantity"
+msgstr ""
+
+#: includes/product_metabox.php:71
+msgid "The number of license key to be delivered upon purchase."
+msgstr ""
+
+#: includes/product_metabox.php:79 includes/settings_page.php:147
+msgid "Show Delivered License Keys In "
+msgstr ""
+
+#: includes/product_metabox.php:86 includes/settings_page.php:154
+msgid "E-mail And Website"
+msgstr ""
+
+#: includes/product_metabox.php:87 includes/settings_page.php:155
+msgid "E-mail"
+msgstr ""
+
+#: includes/product_metabox.php:88 includes/settings_page.php:156
+msgid "Website"
+msgstr ""
+
+#: includes/product_metabox.php:92 includes/settings_page.php:160
+msgid ""
+"<strong>E-mail:</strong> The buyer will receive the key in an "
+"email<br><strong>Website:</strong> The buyer will be asked to click a link "
+"in the email to go to the website to see the license key, so you can collect "
+"data such as IP address, location..."
+msgstr ""
+
+#: includes/product_metabox.php:101 includes/settings_page.php:169
+msgid "Display License Key As"
+msgstr ""
+
+#: includes/product_metabox.php:108 includes/settings_page.php:176
+msgid "Text and Image"
+msgstr ""
+
+#: includes/product_metabox.php:109 includes/settings_page.php:177
+msgid "Text Only"
+msgstr ""
+
+#: includes/product_metabox.php:110 includes/settings_page.php:178
+msgid "Image Only"
+msgstr ""
+
+#: includes/product_metabox.php:114 includes/settings_page.php:182
+msgid "What to show the buyer in the emails and order history"
+msgstr ""
+
+#: includes/product_metabox.php:120
+msgid "Enable sending license keys for this Product/Variation"
+msgstr ""
+
+#: includes/product_metabox.php:137
+msgid "Import Prefix"
+msgstr ""
+
+#: includes/product_metabox.php:148
+msgid "Import Suffix"
+msgstr ""
+
+#: includes/product_metabox.php:183
+msgid "Variation Import Prefix"
+msgstr ""
+
+#: includes/product_metabox.php:194
+msgid "Variation Import Suffix"
+msgstr ""
+
+#: includes/product_metabox.php:211
+msgid "Available license key for this product"
+msgstr ""
+
+#: includes/product_metabox.php:222
+msgid "Add New License Key for this product"
+msgstr ""
+
+#: includes/product_metabox.php:330
+msgid ""
+"Leave all fields blank if your product doesn't require an expiration date"
+msgstr ""
+
+#: includes/product_metabox.php:359
+msgid "Automatic License key generator settings"
+msgstr ""
+
+#: includes/product_metabox.php:374
+msgid "Enable License Key Generator for this product/Variation"
+msgstr ""
+
+#: includes/product_metabox.php:379
+msgid ""
+"Use this option if you are selling a product that requires a license key "
+"generated for every purchase, like digital products (themes, templates, "
+"software products ...) you don't need to manually add license keys to use "
+"this option, but if you do your buyer will first get license keys from the "
+"manually added ones, then the system wil start generating license keys when "
+"they run out"
+msgstr ""
+
+#: includes/product_metabox.php:380
+msgid "No license key will be generated if this option is <b>unchecked</b>"
+msgstr ""
+
+#: includes/product_metabox.php:472
+msgid "Extra data for API use:"
+msgstr ""
+
+#: includes/product_metabox.php:476
+msgid "Software Name"
+msgstr ""
+
+#: includes/product_metabox.php:488
+msgid "Software ID"
+msgstr ""
+
+#: includes/product_metabox.php:500
+msgid "Software Version"
+msgstr ""
+
+#: includes/product_metabox.php:512
+msgid "Software Author"
+msgstr ""
+
+#: includes/product_metabox.php:524
+msgid "Software URL"
+msgstr ""
+
+#: includes/product_metabox.php:536
+msgid "Software Last Update"
+msgstr ""
+
+#: includes/product_metabox.php:548
+msgid "Software Extra Data"
+msgstr ""
+
+#: includes/product_metabox.php:556
+msgid ""
+"Extra data to get through the API that are not covered by the above "
+"fields<br><b>This field support JSON</b>"
+msgstr ""
+
+#: includes/product_metabox.php:564
+msgid "Save Settings"
+msgstr ""
+
+#: includes/product_metabox.php:576
+msgid "Reload Metabox"
+msgstr ""
+
+#: includes/settings_page.php:20
+msgid "License Manager Settings"
+msgstr ""
+
+#: includes/settings_page.php:23
+msgid "General"
+msgstr ""
+
+#: includes/settings_page.php:24 includes/settings_page.php:609
+msgid "Order Status"
+msgstr ""
+
+#: includes/settings_page.php:25
+msgid "License Keys Generator"
+msgstr ""
+
+#: includes/settings_page.php:26
+msgid "Notifications"
+msgstr ""
+
+#: includes/settings_page.php:27 includes/settings_page.php:425
+msgid "Email Template"
+msgstr ""
+
+#: includes/settings_page.php:28
+msgid "Encryption"
+msgstr ""
+
+#: includes/settings_page.php:30 includes/settings_page.php:686
+msgid "Extra Settings"
+msgstr ""
+
+#: includes/settings_page.php:44
+msgid "UI Settings"
+msgstr ""
+
+#: includes/settings_page.php:48
+msgid "Number of rows per page"
+msgstr ""
+
+#: includes/settings_page.php:57
+msgid "Show Admin bar notifications"
+msgstr ""
+
+#: includes/settings_page.php:67
+msgid ""
+"Allow The Customer to checkout Even If There is no license Keys for a "
+"Licensed Product"
+msgstr ""
+
+#: includes/settings_page.php:76
+msgid "Allow Guest Customers To See The License Keys In The Thank-you Page"
+msgstr ""
+
+#: includes/settings_page.php:85
+msgid "License Key Generator Characters"
+msgstr ""
+
+#: includes/settings_page.php:90
+msgid "Characters that can be used to generate license keys"
+msgstr ""
+
+#: includes/settings_page.php:98
+msgid "Property Names"
+msgstr ""
+
+#: includes/settings_page.php:101
+msgid "Meta key name"
+msgstr ""
+
+#: includes/settings_page.php:106
+msgid ""
+"The values that are already in the database are not going to be changed."
+"<br>This text appears on the emails, order received page, and purchase "
+"history."
+msgstr ""
+
+#: includes/settings_page.php:114
+msgid "Meta key name(Plural form)"
+msgstr ""
+
+#: includes/settings_page.php:122
+msgid "License Keys Delivery"
+msgstr ""
+
+#: includes/settings_page.php:125
+msgid "Key Delivery"
+msgstr ""
+
+#: includes/settings_page.php:139
+msgid "First key added sent first"
+msgstr ""
+
+#: includes/settings_page.php:140
+msgid "Last key added sent first"
+msgstr ""
+
+#: includes/settings_page.php:188
+msgid "Expiration"
+msgstr ""
+
+#: includes/settings_page.php:192
+msgid "Auto expire license keys"
+msgstr ""
+
+#: includes/settings_page.php:198
+msgid ""
+"Automatically change license keys status to expired after the expiration "
+"date.<br><b>The status updater runs once every 24 hours.</b>"
+msgstr ""
+
+#: includes/settings_page.php:202
+msgid "Auto Mark as Redeemed"
+msgstr ""
+
+#: includes/settings_page.php:206
+msgid "Mark as redeemed after(days)"
+msgstr ""
+
+#: includes/settings_page.php:212
+msgid ""
+"Automatically mark sold license keys as redeemed. Works only if the license "
+"key status is \"sold\".<br><b>Set to 0 to disable this feature.</b>"
+msgstr ""
+
+#: includes/settings_page.php:219
+msgid "Show the customers \"Set as redeemed\" button in the order page"
+msgstr ""
+
+#: includes/settings_page.php:227
+msgid "Stock Management"
+msgstr ""
+
+#: includes/settings_page.php:231
+msgid "Sync license keys stock with WooCommerce product stock"
+msgstr ""
+
+#: includes/settings_page.php:238
+msgid "1. Enable this option."
+msgstr ""
+
+#: includes/settings_page.php:239
+msgid ""
+"2. Enable stock management at product level for the products that you want "
+"to be automatically synced."
+msgstr ""
+
+#: includes/settings_page.php:240
+msgid "Sync Now"
+msgstr ""
+
+#: includes/settings_page.php:241
+msgid ""
+"The sync now button can be used at anytime to re-sync the license keys stock."
+msgstr ""
+
+#: includes/settings_page.php:247
+msgid "Background stock sync process frequency (Seconds)"
+msgstr ""
+
+#: includes/settings_page.php:253
+msgid "Run stock sync process once every X seconds."
+msgstr ""
+
+#: includes/settings_page.php:259
+msgid "Delete License keys"
+msgstr ""
+
+#: includes/settings_page.php:263
+msgid "Delete license keys when a product is deleted"
+msgstr ""
+
+#: includes/settings_page.php:290
+msgid "License Generator Default Settings"
+msgstr ""
+
+#: includes/settings_page.php:380
+msgid "Show notifications in the admin panel when"
+msgstr ""
+
+#: includes/settings_page.php:384
+msgid "Number of available License Keys for licensable products is under"
+msgstr ""
+
+#: includes/settings_page.php:393
+msgid "Send E-mail"
+msgstr ""
+
+#: includes/settings_page.php:402
+msgid "To"
+msgstr ""
+
+#: includes/settings_page.php:405
+msgid "E-mail Address"
+msgstr ""
+
+#: includes/settings_page.php:427
+msgid "Shortcodes:"
+msgstr ""
+
+#: includes/settings_page.php:432 includes/settings_page.php:435
+msgid "Shortcods:"
+msgstr ""
+
+#: includes/settings_page.php:433 includes/settings_page.php:436
+msgid "Function:"
+msgstr ""
+
+#: includes/settings_page.php:445
+msgid "Shipping Last Name"
+msgstr ""
+
+#: includes/settings_page.php:450
+msgid "Billing First Name"
+msgstr ""
+
+#: includes/settings_page.php:453
+msgid "Site Name"
+msgstr ""
+
+#: includes/settings_page.php:458
+msgid "Billing Last Name"
+msgstr ""
+
+#: includes/settings_page.php:461
+msgid "Site URL"
+msgstr ""
+
+#: includes/settings_page.php:466
+msgid "Shipping First Name"
+msgstr ""
+
+#: includes/settings_page.php:469
+msgid "My Account page URL"
+msgstr ""
+
+#: includes/settings_page.php:480
+msgid "Add WooCommerce Default Email Header &amp; Footer"
+msgstr ""
+
+#: includes/settings_page.php:489
+msgid ""
+"Add License Keys to Default WooCommerce Email Too(Default WooCommerce email "
+"without the custom template)"
+msgstr ""
+
+#: includes/settings_page.php:494
+msgid ""
+"In addition to the email with the custom template the license keys will be "
+"added to WooCommerce's default order email too"
+msgstr ""
+
+#: includes/settings_page.php:501
+msgid ""
+"Send a second email that contain the license keys only and uses the template"
+msgstr ""
+
+#: includes/settings_page.php:510
+msgid "Heading"
+msgstr ""
+
+#: includes/settings_page.php:519
+msgid "Subject"
+msgstr ""
+
+#: includes/settings_page.php:528
+msgid "Message"
+msgstr ""
+
+#: includes/settings_page.php:545
+msgid "Encryption Settings"
+msgstr ""
+
+#: includes/settings_page.php:561
+msgid "Data Encryption Key"
+msgstr ""
+
+#: includes/settings_page.php:567
+msgid "The key used to encrypt/decrypt license keys in the database"
+msgstr ""
+
+#: includes/settings_page.php:575
+msgid "Data Encryption VI"
+msgstr ""
+
+#: includes/settings_page.php:581
+msgid "The VI used to encrypt/decrypt license keys in the database"
+msgstr ""
+
+#: includes/settings_page.php:588
+msgid ""
+"Open SSL is not installed on this server license keys will be stored without "
+"encryption "
+msgstr ""
+
+#: includes/settings_page.php:604
+msgid "License Delivery Settings"
+msgstr ""
+
+#: includes/settings_page.php:610
+msgid "Send"
+msgstr ""
+
+#: includes/settings_page.php:612
+msgid "Revoke"
+msgstr ""
+
+#: includes/settings_page.php:613
+msgid "Remove the assigned license key and change its status to returned"
+msgstr ""
+
+#: includes/settings_page.php:617
+msgid "Hide"
+msgstr ""
+
+#: includes/settings_page.php:618
+msgid ""
+"Hide the assigned license key from the buyer in the order history and emails"
+msgstr ""
+
+#: includes/settings_page.php:690
+msgid "Delete Plugins License Keys Tables Before Deactivating The Plugin"
+msgstr ""
+
+#: includes/settings_page.php:699
+msgid "Delete Plugins Generator Rules Tables Before Deactivating The Plugin"
+msgstr ""
+
+#: includes/settings_page.php:708
+msgid "Delete Plugins Licensed Products Tables Before Deactivating The Plugin"
+msgstr ""
+
+#: includes/settings_page.php:717
+msgid "Enable Debug Logging"
+msgstr ""
+
+#: includes/settings_page.php:739
+msgid "Run database update script"
+msgstr ""
+
+#: includes/settings_page.php:750
+msgid "Customizations"
+msgstr ""
+
+#: includes/settings_page.php:752
+msgid ""
+"Those are features added for some buyer, all customization will be added in "
+"this secret menu so I can keep them updated when I update the plugin.\n"
+"                        <br>Only features that may make the plugin look "
+"overcomplicated will be added here, normal features will be added in the "
+"visible setting menus."
+msgstr ""
+
+#: includes/settings_page.php:757
+msgid "Import prefixes/suffixes in the product page"
+msgstr ""
+
+#: includes/settings_page.php:778
+msgid "API Settings"
+msgstr ""
+
+#: includes/settings_page.php:782
+msgid "Disable API v1"
+msgstr ""
+
+#: includes/settings_page.php:791
+msgid "API Key"
+msgstr ""
+
+#: includes/support.php:21
+msgid "Expired on: "
+msgstr ""
+
+#: includes/support.php:23
+msgid "Valid until:"
+msgstr ""
+
+#: includes/support.php:34
+msgid "Hi &mdash; If you have a question or you need support please "
+msgstr ""
+
+#: includes/support.php:34
+msgid "open new ticket here"
+msgstr ""
+
+#: includes/support.php:34
+msgid " and we will get back to you as soon as possible."
+msgstr ""
+
+#: includes/support.php:35
+msgid "Make sure to send screenshots of the issue if possible."
+msgstr ""
+
+#: includes/support.php:38
+msgid ""
+"If you have created a ticket before without a user account, PLease use the "
+msgstr ""
+
+#: includes/support.php:38
+msgid "Guest Ticket Login"
+msgstr ""
+
+#: includes/support.php:38
+msgid " form to view your ticket."
+msgstr ""
+
+#: includes/support.php:39
+msgid "Or If you a have created an account "
+msgstr ""
+
+#: includes/support.php:39
+msgid "Login Here"
+msgstr ""
+
+#: includes/support.php:39
+msgid " to view all your tickets."
+msgstr ""
+
+#: includes/support.php:42
+msgid "The fastest way to get support is through our ticketing system."
+msgstr ""
+
+#: includes/support.php:56 includes/welcome.php:54
+msgid "Purchase Code"
+msgstr ""
+
+#: includes/support.php:61
+msgid "Support Status"
+msgstr ""
+
+#: includes/support.php:73
+msgid "Deactivate license key to transfer to another domain"
+msgstr ""
+
+#: includes/welcome.php:15
+msgid "Welcome to WooCommerce License Manager"
+msgstr ""
+
+#: includes/welcome.php:18
+msgid ""
+"Before starting to use the plugin please go through the setting page and "
+"configure the plugin."
+msgstr ""
+
+#: includes/welcome.php:22
+msgid "Set your Encryption Keys"
+msgstr ""
+
+#: includes/welcome.php:22
+msgid ""
+"Set your secret KEY and secret VI, they will be used to encrypt the license "
+"keys in the database"
+msgstr ""
+
+#: includes/welcome.php:23
+msgid "Notifications Settings"
+msgstr ""
+
+#: includes/welcome.php:23
+msgid ""
+"Receiver email, and minimum stock quantity before starting to get emails"
+msgstr ""
+
+#: includes/welcome.php:24
+msgid "Order Status Settings"
+msgstr ""
+
+#: includes/welcome.php:24
+msgid "Set when to send and when to remove license keys"
+msgstr ""
+
+#: includes/welcome.php:27
+msgid "Activation"
+msgstr ""
+
+#: includes/welcome.php:45
+msgid "Envato Buyer Username"
+msgstr ""
+
+#: includes/welcome.php:60
+msgid "You can find your purchase code in your Envato account/downloads"
+msgstr ""

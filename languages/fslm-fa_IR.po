@@ -1,0 +1,1840 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Persian WooCommerce License Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-30 12:53+0430\n"
+"PO-Revision-Date: 2020-05-30 13:07+0430\n"
+"Last-Translator: \n"
+"Language-Team: Persian WooCommerce\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e;_\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp_wc_fs_license_manager.php:1259
+msgid "Done, Reloading..."
+msgstr "انجام شد، در حال بارگزاری مجدد..."
+
+#: wp_wc_fs_license_manager.php:1410 includes/license_key_generator.php:141
+#: includes/license_manager.php:296 includes/metabox_licenses_list.php:74
+#: includes/metabox_rules_list.php:57
+msgid "Edit"
+msgstr "ویرایش"
+
+#: wp_wc_fs_license_manager.php:1411 includes/license_key_generator.php:60
+#: includes/license_key_generator.php:142 includes/license_manager.php:81
+#: includes/license_manager.php:297 includes/metabox_licenses_list.php:75
+#: includes/metabox_rules_list.php:58
+msgid "Delete"
+msgstr "حذف"
+
+#: wp_wc_fs_license_manager.php:1412 includes/license_manager.php:298
+msgid "Copy Encrypted Key"
+msgstr "کپی کردن کلید قفل گذاری شده"
+
+#: wp_wc_fs_license_manager.php:1442
+msgid "There is no license key in the database matching your filter settings"
+msgstr "درون دیتابیس ، هیچ کد لایسنسی وجود ندارد"
+
+#: wp_wc_fs_license_manager.php:1810
+msgid "Please Login to be able to see license key details"
+msgstr "لطفا برای مشاهده رمز های اختصاص یافته به شما وارد حساب کاربری شوید"
+
+#: wp_wc_fs_license_manager.php:1836
+msgid "Done"
+msgstr "انجام شد"
+
+#: wp_wc_fs_license_manager.php:1842 wp_wc_fs_license_manager.php:3999
+#: wp_wc_fs_license_manager.php:5951 wp_wc_fs_license_manager.php:5973
+#: includes/license_manager.php:33
+msgid "License Manager"
+msgstr "مدیریت لایسنس و کارت شارژ"
+
+#: wp_wc_fs_license_manager.php:1850
+msgid "Resend License Keys Email"
+msgstr "ارسال مجدد ایمیل کلید های لایسنس"
+
+#: wp_wc_fs_license_manager.php:1853
+#, fuzzy
+#| msgid "Edit Assigned License Keys"
+msgid "Assign New License Keys"
+msgstr "ویرایش لایسنس های اختصاص یافته"
+
+#: wp_wc_fs_license_manager.php:1854
+msgid "Edit Assigned License Keys"
+msgstr "ویرایش لایسنس های اختصاص یافته"
+
+#: wp_wc_fs_license_manager.php:1870 includes/settings_page.php:419
+msgid "License Keys for Order #[order_id]"
+msgstr "لایسنس های شما برای #[order_id]"
+
+#: wp_wc_fs_license_manager.php:1871 includes/settings_page.php:420
+msgid "[site_name] | License Keys for Order #[order_id]"
+msgstr "[site_name] | لایسنس های شما برای سفارش #[order_id]"
+
+#: wp_wc_fs_license_manager.php:1872 includes/settings_page.php:421
+msgid ""
+"<p>Dear [bfname] [blname]</p><p>Thank you for your order, those are your "
+"license keys for the order #[order_id]</p><p>you can see all your past "
+"orders and license keys <a title=\"My Account\" href="
+"\"[myaccount_url]\">here</a>.</p>"
+msgstr ""
+"<p>کاربر گرامی [bfname] [blname]</p><p>از سفارش شما سپاسگذاریم ، رمز های "
+"لایسنس ایجاد شده برای سفارش #[order_id] به شرح ذیل است.</p><p> شما می توانید "
+"تمامی سفارشات گذشته خود را از <a title=\"حساب کاربری من\" href="
+"\"[myaccount_url]\">اینجا</a> مشاهده کنید.</p>"
+
+#: wp_wc_fs_license_manager.php:1994 wp_wc_fs_license_manager.php:2171
+#: wp_wc_fs_license_manager.php:2264 includes/add_generator_rule.php:22
+#: includes/add_license_key.php:22 includes/edit_generator_rule.php:41
+#: includes/edit_license_key.php:96 includes/license_key_generator.php:92
+#: includes/license_key_generator.php:183 includes/license_manager.php:152
+#: includes/license_manager.php:203 includes/license_manager.php:335
+#: includes/lm_export.php:40 includes/lm_export.php:95
+#: includes/lm_export.php:149 includes/lm_export.php:187
+#: includes/lm_import.php:35 includes/lm_import.php:179
+msgid "Product"
+msgstr "محصول"
+
+#: wp_wc_fs_license_manager.php:2040 wp_wc_fs_license_manager.php:2116
+#: wp_wc_fs_license_manager.php:2222 wp_wc_fs_license_manager.php:2302
+msgid "Can be used"
+msgstr "قابل استفاده است"
+
+#: wp_wc_fs_license_manager.php:2040 wp_wc_fs_license_manager.php:2116
+#: wp_wc_fs_license_manager.php:2222 wp_wc_fs_license_manager.php:2302
+msgid "time(s)"
+msgstr "دفعه(ها)"
+
+#: wp_wc_fs_license_manager.php:2044 wp_wc_fs_license_manager.php:2120
+#: wp_wc_fs_license_manager.php:2226 wp_wc_fs_license_manager.php:2306
+msgid "<strong>Expires</strong> "
+msgstr "<strong>انقضا</strong> "
+
+#: wp_wc_fs_license_manager.php:2065 wp_wc_fs_license_manager.php:2327
+msgid "Set as redeemed"
+msgstr "تنظیم به عنوان بازخرید"
+
+#: wp_wc_fs_license_manager.php:2123
+msgid "Replace license key"
+msgstr "جایگزینی کلید لایسنس"
+
+#: wp_wc_fs_license_manager.php:2130
+msgid "Replace license key(s)"
+msgstr "جایگزینی لایسنس(ها)"
+
+#: wp_wc_fs_license_manager.php:2130
+msgid " or "
+msgstr " یا "
+
+#: wp_wc_fs_license_manager.php:2136
+msgid "Assign new license key"
+msgstr "لایسنس جدید اختصاص دهید"
+
+#: wp_wc_fs_license_manager.php:2144 includes/functions.php:8
+msgid "Doesn't Expire"
+msgstr "بدون انقضا"
+
+#: wp_wc_fs_license_manager.php:2148 wp_wc_fs_license_manager.php:2156
+#: includes/functions.php:12 includes/functions.php:20
+msgid "None"
+msgstr "هیچ كدام"
+
+#: wp_wc_fs_license_manager.php:2245
+msgid "Click here to see your"
+msgstr "برای مشاهده اینجا کلیک کنید"
+
+#: wp_wc_fs_license_manager.php:2948
+msgid "product variation"
+msgstr "متغیر محصول"
+
+#: wp_wc_fs_license_manager.php:2953
+msgid "License Key(s) are delivered per purchase. Only"
+msgstr "کد های لایسنس قابل تحویل برای هر بار پرداخت. فقط"
+
+#: wp_wc_fs_license_manager.php:2953
+msgid "purchase(s) possible."
+msgstr "پرداخت امکان پذیر است."
+
+#: wp_wc_fs_license_manager.php:2958
+msgid "Sorry, There is no license keys available for"
+msgstr "با عرض پوزش، هیچ کلید لایسنس/شارژ/مجوزی در دسترس نیست"
+
+#: wp_wc_fs_license_manager.php:2958
+msgid "Please remove this item or lower the quantity, For now we have"
+msgstr "لطفا این آیتم را حذف کنید یا کمیت را کم کنید، در حال حاضر ما داریم"
+
+#: wp_wc_fs_license_manager.php:2958
+msgid "License key(s)"
+msgstr "کلید لایسنس(ها)"
+
+#: wp_wc_fs_license_manager.php:2958
+msgid "for this product."
+msgstr "برای این محصول."
+
+#: wp_wc_fs_license_manager.php:3931
+msgid "License Keys stock running low"
+msgstr "موجودی کد ها کم است"
+
+#: wp_wc_fs_license_manager.php:3978
+msgid "Please add license keys for"
+msgstr "لطفا لایسنس (رمز شارژ) جدید برای این محصول ایجاد کنید"
+
+#: wp_wc_fs_license_manager.php:3978
+msgid "License Key left"
+msgstr "لایسنس (شارژ) باقی مانده است"
+
+#: wp_wc_fs_license_manager.php:4010
+msgid "There is no notifications"
+msgstr "هیچ اطلاع رسانی وجود ندارد"
+
+#: wp_wc_fs_license_manager.php:4031
+msgid "Please add more license key for the following items"
+msgstr "لطفا برای موارد زیر ، کد لایسنس وارد نمایید"
+
+#: wp_wc_fs_license_manager.php:4194
+msgid "Duplicate License key was not added to the datebase."
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:4400 includes/add_license_key.php:70
+#: includes/edit_license_key.php:146 includes/license_manager.php:205
+#: includes/license_manager.php:337 includes/metabox_licenses_list.php:24
+#: includes/product_metabox.php:255
+msgid "License Key"
+msgstr "کلید لایسنس"
+
+#: wp_wc_fs_license_manager.php:4494
+msgid "License"
+msgstr "لایسنس"
+
+#: wp_wc_fs_license_manager.php:5281
+msgid "Export your data before deactivating"
+msgstr "برون بری داده های شما قبل از غیر فعال سازی"
+
+#: wp_wc_fs_license_manager.php:5281
+msgid "FS License Manager"
+msgstr "مدیریت لایسنس و کارت شارژ ووکامرس"
+
+#: wp_wc_fs_license_manager.php:5281
+msgid ""
+"Database tables will be deleted, to deactivate without deleting the database "
+"table disable this option in <b>License Manager -> Settings -> Extra "
+"Settings</b>"
+msgstr ""
+"جداول دیتابیس هم حذف خواهند شد ، برای غیر فعال سازی افزودن بدون حذف جداول "
+"این افزونه ، میتوانید این گزینه را از قسمت تنظیمات افزونه مدیریت لایسنس / "
+"قسمت تنظیمات اضافی انجام دهید."
+
+#: wp_wc_fs_license_manager.php:5952 includes/license_key_generator.php:25
+msgid "License Key Generator"
+msgstr "سازنده لایسنس خودکار"
+
+#: wp_wc_fs_license_manager.php:5953 includes/add_license_key.php:12
+#: includes/add_license_key.php:171
+msgid "Add License Key"
+msgstr "افزودن لایسنس"
+
+#: wp_wc_fs_license_manager.php:5954 includes/add_generator_rule.php:12
+#: includes/add_generator_rule.php:151
+msgid "Add Generator Rule"
+msgstr "افزودن قانون سازنده"
+
+#: wp_wc_fs_license_manager.php:5955
+msgid "Settings"
+msgstr "پیکربندی"
+
+#: wp_wc_fs_license_manager.php:5956
+msgid "Import"
+msgstr "درون ریزی"
+
+#: wp_wc_fs_license_manager.php:5957
+msgid "Export"
+msgstr "برون بری"
+
+#: wp_wc_fs_license_manager.php:5958 includes/support.php:29
+msgid "License And Support"
+msgstr "لایسنس و پشتیبانی"
+
+#: wp_wc_fs_license_manager.php:5964 wp_wc_fs_license_manager.php:5965
+msgid "Welcome"
+msgstr "خوش آمدید"
+
+#: wp_wc_fs_license_manager.php:6148
+msgid ""
+"Replace the existing keys(if any) and reload the page?\n"
+"\n"
+"1. If there is no license keys available for the product this action will "
+"only delete the assigned keys.\n"
+"2. If the available keys are less then the required number of keys this "
+"action will delete the assigned keys and assign the available ones \"Assign "
+"new license key\" option can later be used to assign the rest of the keys.\n"
+"3. If the license keys generator is enabled and there is no keys available "
+"for the product new keys will be generated.\n"
+"4. The option will only add keys equivalent the the ordered number, any "
+"manually assigned keys won't be added"
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:6149 includes/license_key_generator.php:101
+msgid "Generate"
+msgstr "ایجاد"
+
+#: wp_wc_fs_license_manager.php:6150
+msgid "license key(s)?"
+msgstr "لایسنس(ها)؟"
+
+#: wp_wc_fs_license_manager.php:6151
+msgid "Delete This item?"
+msgstr "حذف این مورد؟"
+
+#: wp_wc_fs_license_manager.php:6152
+msgid ""
+"Replace this license key and reload the page?\n"
+"\n"
+"1. If there is no license keys available for the product this action will "
+"only delete the assigned key.\n"
+"2. If the license keys generator is enabled and there is no keys available "
+"for the product a new key will be generated."
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:6153
+msgid ""
+"Add a new license key to this item and reload the page?\n"
+"\n"
+"1. If there is no available keys for the product this action won't add "
+"anything.\n"
+"2. If the license keys generator is enabled and there is no keys available "
+"for the product a new key will be generated."
+msgstr ""
+
+#: wp_wc_fs_license_manager.php:6154
+msgid ""
+"Replace this items license keys and reload the page\n"
+"\n"
+"1. If there is no license keys available for the product this action will "
+"only delete the assigned keys.\n"
+"2. If the available keys are less then the required number of keys this "
+"action will delete the assigned keys and assign the available ones \"Assign "
+"new license key\" option can later be used to assign the rest of the keys.\n"
+"3. If the license keys generator  is enabled and there is no keys available "
+"for the product new keys will be generated."
+msgstr ""
+
+#: includes/about.php:4
+msgid "About"
+msgstr "درباره"
+
+#: includes/about.php:8 includes/support.php:46
+msgid "This copy of FS License Manager is licensed to"
+msgstr "This copy of FS License Manager is licensed to"
+
+#: includes/about.php:13 includes/support.php:51
+msgid "Envato Username"
+msgstr "نام کاربری"
+
+#: includes/about.php:18
+msgid "License Type"
+msgstr "نوع لایسنس"
+
+#: includes/about.php:23
+msgid "Envato Item Name"
+msgstr "Envato Item Name"
+
+#: includes/about.php:28
+msgid "Envato Item ID"
+msgstr "Envato Item ID"
+
+#: includes/about.php:33
+msgid "Purchsae Date"
+msgstr "Purchsae Date"
+
+#: includes/about.php:38
+msgid "Supported Until"
+msgstr "Supported Until"
+
+#: includes/about.php:43
+msgid "Envato Purchase Code"
+msgstr "شماره خرید (سفارش)"
+
+#: includes/about.php:48 includes/support.php:67
+msgid "License Status"
+msgstr "License Status"
+
+#: includes/add_generator_rule.php:48 includes/add_license_key.php:48
+#: includes/edit_generator_rule.php:67 includes/edit_license_key.php:122
+#: includes/license_key_generator.php:93 includes/license_key_generator.php:184
+#: includes/license_manager.php:204 includes/license_manager.php:336
+#: includes/lm_import.php:59 includes/lm_import.php:221
+#: includes/product_metabox.php:229 includes/product_metabox.php:388
+msgid "Variation"
+msgstr "متغیر"
+
+#: includes/add_generator_rule.php:72 includes/edit_generator_rule.php:93
+#: includes/license_key_generator.php:94 includes/license_key_generator.php:185
+#: includes/product_metabox.php:414 includes/settings_page.php:294
+msgid "Prefix"
+msgstr "پیشوند"
+
+#: includes/add_generator_rule.php:81 includes/edit_generator_rule.php:102
+#: includes/product_metabox.php:423 includes/settings_page.php:303
+msgid "Number of chunks"
+msgstr "تعداد تکه ها"
+
+#: includes/add_generator_rule.php:90 includes/edit_generator_rule.php:111
+#: includes/product_metabox.php:432 includes/settings_page.php:312
+msgid "Chunk length"
+msgstr "طول کلمات"
+
+#: includes/add_generator_rule.php:99 includes/edit_generator_rule.php:120
+#: includes/license_key_generator.php:97 includes/license_key_generator.php:188
+#: includes/product_metabox.php:441 includes/settings_page.php:321
+msgid "Suffix"
+msgstr "پسوند"
+
+#: includes/add_generator_rule.php:108 includes/add_license_key.php:115
+#: includes/edit_license_key.php:212 includes/lm_import.php:101
+#: includes/lm_import.php:263 includes/product_metabox.php:299
+msgid "Maximum Instance Number"
+msgstr "حداکثر تعداد نمونه"
+
+#: includes/add_generator_rule.php:113 includes/add_license_key.php:121
+#: includes/lm_import.php:106 includes/lm_import.php:268
+#: includes/product_metabox.php:304
+msgid ""
+"Requires the implementation for the Tracking API, Ignore this field if your "
+"product is untraceable(the Tracking API is designed for software products, "
+"themes... digital products in general)"
+msgstr ""
+"نیاز به API برای ردگیری لایسنس دارد. در صورتی که این محصول قابل ردگیری نیست "
+"(مانند لایسنس های صادر شده برای نرم افزار ها ، قالب ها و... سایر محصولات "
+"دیجیتالی) این گزینه را رد کنید"
+
+#: includes/add_generator_rule.php:121 includes/add_license_key.php:158
+#: includes/edit_generator_rule.php:138 includes/edit_license_key.php:345
+#: includes/lm_import.php:140 includes/lm_import.php:302
+#: includes/product_metabox.php:338 includes/product_metabox.php:459
+#: includes/settings_page.php:339
+msgid "Validity (Days)"
+msgstr "اعتبار (روز)"
+
+#: includes/add_generator_rule.php:126 includes/add_license_key.php:163
+#: includes/lm_import.php:145 includes/lm_import.php:307
+#: includes/product_metabox.php:343
+msgid ""
+"Number of <b>Days</b> before the license key expires<br>Expiration date will "
+"be calculated based on this value after purchase completed, keep "
+"<b>Expiration Date</b> fields empty if you want to use this option<br><b>Set "
+"to 0 if your product doesn't expire</b>"
+msgstr "در صورتی که قصد ایجاد تاریخ انقضا ندارید ، خالی بگذارید (0 بگذارید)"
+
+#: includes/add_generator_rule.php:135 includes/edit_generator_rule.php:147
+#: includes/functions.php:109 includes/license_key_generator.php:100
+#: includes/license_key_generator.php:191 includes/settings_page.php:349
+msgid "Active"
+msgstr "فعال"
+
+#: includes/add_generator_rule.php:139 includes/edit_generator_rule.php:159
+#: includes/license_key_generator.php:153 includes/metabox_rules_list.php:68
+#: includes/settings_page.php:361
+msgid "No"
+msgstr "خیر"
+
+#: includes/add_generator_rule.php:140 includes/edit_generator_rule.php:160
+#: includes/license_key_generator.php:153 includes/metabox_rules_list.php:68
+#: includes/settings_page.php:362
+msgid "Yes"
+msgstr "بله"
+
+#: includes/add_generator_rule.php:143
+msgid "No license key will be generated if this option is set to <b>No</b>"
+msgstr "اگر این گزینه را انتخاب نکنید ، لایسنس خودکار ایجاد نمی شود"
+
+#: includes/add_license_key.php:52 includes/product_metabox.php:124
+msgid "Main Product"
+msgstr "محصول اصلی"
+
+#: includes/add_license_key.php:76 includes/product_metabox.php:260
+msgid ""
+"1. This field support HTML<br>2. This field support multiline "
+"text<br><strong>Example:</strong><br>Cart Number: 1234321441411222<br>CVV: "
+"552<br>Expiration Date: 01/19"
+msgstr ""
+"1. این گزینه از HTML پشتیبانی می کند<br/>2. این فیلد از چند خطی بودن "
+"پشتیبانی می کند<br/>مثال:</strong><br>نام کاربری:12345<br>پورت "
+"اتصال:443<br>رمز عبور:12345"
+
+#: includes/add_license_key.php:85 includes/edit_license_key.php:155
+#: includes/product_metabox.php:268
+msgid "Image License Key"
+msgstr "لایسنس تصویری (عکس)"
+
+#: includes/add_license_key.php:91 includes/edit_license_key.php:164
+#: includes/product_metabox.php:274
+msgid "You can use an image as a license key"
+msgstr "شما می توانید از یک تصویر به عنوان لایسنس استفاده نمایید"
+
+#: includes/add_license_key.php:100 includes/edit_license_key.php:187
+#: includes/lm_import.php:86 includes/lm_import.php:248
+#: includes/product_metabox.php:284
+msgid "Number Of Times To Deliver This Key"
+msgstr "تعداد دفعات تحویل این لایسنس"
+
+#: includes/add_license_key.php:106 includes/edit_license_key.php:193
+#: includes/lm_import.php:92 includes/lm_import.php:254
+#: includes/product_metabox.php:290
+msgid ""
+"The status will only change to sold after the key is sold the number of "
+"times in the input above"
+msgstr ""
+"این وضعیت در هنگامی تغییر می کند که تعداد فروش ها از این کد به تعدادی که شما "
+"تعیین کنید برسد"
+
+#: includes/add_license_key.php:130 includes/edit_license_key.php:304
+#: includes/lm_import.php:114 includes/lm_import.php:276
+#: includes/product_metabox.php:312
+msgid "Expiration Date"
+msgstr "تاریخ انقضا"
+
+#: includes/add_license_key.php:143 includes/edit_license_key.php:271
+#: includes/edit_license_key.php:295 includes/edit_license_key.php:319
+#: includes/license_manager.php:261 includes/lm_import.php:127
+#: includes/lm_import.php:289 includes/product_metabox.php:325
+msgid "Day"
+msgstr "روز"
+
+#: includes/add_license_key.php:145 includes/edit_license_key.php:273
+#: includes/edit_license_key.php:297 includes/edit_license_key.php:321
+#: includes/lm_import.php:129 includes/lm_import.php:291
+#: includes/product_metabox.php:327
+msgid "Year"
+msgstr "سال"
+
+#: includes/add_license_key.php:148
+msgid ""
+"Keep <b>Expiration Date</b></b> fields empty if your product doesn't expire"
+msgstr "در صورتی که نمیخواهید این کد منقضی (خودکار) شود ، خالی رها کنید"
+
+#: includes/edit_generator_rule.php:30 includes/edit_generator_rule.php:167
+msgid "Edit Generator Rule"
+msgstr "ویرایش قانون سازنده"
+
+#: includes/edit_generator_rule.php:129 includes/license_key_generator.php:98
+#: includes/license_key_generator.php:189 includes/license_manager.php:207
+#: includes/license_manager.php:339 includes/product_metabox.php:450
+#: includes/settings_page.php:330
+msgid "Instance"
+msgstr "نمونه"
+
+#: includes/edit_license_key.php:50
+msgid "Remove the old image"
+msgstr "حذف تصویر قدیمی"
+
+#: includes/edit_license_key.php:85
+msgid "Edit License Key"
+msgstr "ویرایش لایسنس"
+
+#: includes/edit_license_key.php:169
+msgid "See Old Image"
+msgstr "مشاهده تصویر قدیمی"
+
+#: includes/edit_license_key.php:171
+msgid "If you upload a replacement this will be automatically removed"
+msgstr "اگر شما یک تصویر جایگزین انتخاب کنید ، تصویر قبلی حذف می شود"
+
+#: includes/edit_license_key.php:175
+msgid "No Image"
+msgstr "بدون تصویر"
+
+#: includes/edit_license_key.php:202
+msgid "Remaining delivery times"
+msgstr "تعداد دفعات باقی مانده تحویل"
+
+#: includes/edit_license_key.php:221
+msgid "Remaining Instance Number"
+msgstr "تعداد باقی مانده نمونه"
+
+#: includes/edit_license_key.php:230
+msgid "Owner First Name"
+msgstr "نام خریدار"
+
+#: includes/edit_license_key.php:239
+msgid "Owner Last Name"
+msgstr "نام خانوادگی خریدار"
+
+#: includes/edit_license_key.php:248
+msgid "Owner Email Address"
+msgstr "آدرس ایمیل خریدار"
+
+#: includes/edit_license_key.php:257 includes/metabox_licenses_list.php:25
+msgid "Creation Date"
+msgstr "تاریخ ایجاد"
+
+#: includes/edit_license_key.php:280
+msgid "Activation Date"
+msgstr "تاریخ فعال سازی"
+
+#: includes/edit_license_key.php:328 includes/license_manager.php:213
+#: includes/license_manager.php:345 includes/lm_export.php:24
+#: includes/lm_export.php:79 includes/lm_export.php:133
+msgid "Status"
+msgstr "وضعیت"
+
+#: includes/edit_license_key.php:354 includes/settings_page.php:442
+msgid "Order ID"
+msgstr "شماره سفارش"
+
+#: includes/edit_license_key.php:368 includes/edit_license_key.php:388
+msgid "Delete active domains/device IDs"
+msgstr ""
+
+#: includes/edit_license_key.php:406
+msgid "Update License Key"
+msgstr "بروزرسانی لایسنس"
+
+#: includes/functions.php:92
+msgid "Jan"
+msgstr "Jan"
+
+#: includes/functions.php:93
+msgid "Feb"
+msgstr "Feb"
+
+#: includes/functions.php:94
+msgid "Mar"
+msgstr "Mar"
+
+#: includes/functions.php:95
+msgid "Apr"
+msgstr "Apr"
+
+#: includes/functions.php:96
+msgid "May"
+msgstr "May"
+
+#: includes/functions.php:97
+msgid "Jun"
+msgstr "Jun"
+
+#: includes/functions.php:98
+msgid "Jul"
+msgstr "Jul"
+
+#: includes/functions.php:99
+msgid "Aug"
+msgstr "Aug"
+
+#: includes/functions.php:100
+msgid "Sep"
+msgstr "Sep"
+
+#: includes/functions.php:101
+msgid "Oct"
+msgstr "Oct"
+
+#: includes/functions.php:102
+msgid "Nov"
+msgstr "Nov"
+
+#: includes/functions.php:103
+msgid "Dec"
+msgstr "Dec"
+
+#: includes/functions.php:108
+msgid "Available"
+msgstr "موجود"
+
+#: includes/functions.php:110
+msgid "Expired"
+msgstr "منقضی شده"
+
+#: includes/functions.php:111
+msgid "Inactive"
+msgstr "غیرفعال"
+
+#: includes/functions.php:112
+msgid "Returned"
+msgstr "بازگشتی"
+
+#: includes/functions.php:113
+msgid "Sold"
+msgstr "فروخته شده"
+
+#: includes/functions.php:114
+msgid "Redeemed"
+msgstr "بازخرید"
+
+#: includes/license_key_generator.php:49
+msgid "Automatic License Key Generator Rules"
+msgstr "قواعد سازنده خودکار لایسنس"
+
+#: includes/license_key_generator.php:49 includes/license_manager.php:66
+msgid "Add New"
+msgstr "افزودن جدید"
+
+#: includes/license_key_generator.php:55 includes/license_manager.php:72
+msgid "Select bulk action"
+msgstr "انتخاب عملیات گروهی"
+
+#: includes/license_key_generator.php:57 includes/license_manager.php:74
+msgid "Bulk Actions"
+msgstr "عملیات های گروهی"
+
+#: includes/license_key_generator.php:58 includes/welcome.php:69
+msgid "Activate"
+msgstr "فعال سازی"
+
+#: includes/license_key_generator.php:59 includes/support.php:76
+msgid "Deactivate"
+msgstr "غیر فعال سازی"
+
+#: includes/license_key_generator.php:62 includes/license_manager.php:83
+msgid "Apply"
+msgstr "اعمال"
+
+#: includes/license_key_generator.php:90 includes/license_key_generator.php:181
+#: includes/license_manager.php:201 includes/license_manager.php:333
+msgid "Select All"
+msgstr "انتخاب همه"
+
+#: includes/license_key_generator.php:91 includes/license_key_generator.php:182
+#: includes/license_manager.php:202 includes/license_manager.php:334
+#: includes/metabox_licenses_list.php:22
+msgid "ID"
+msgstr "شناسه"
+
+#: includes/license_key_generator.php:95 includes/license_key_generator.php:186
+msgid "Chunks Number"
+msgstr "تعداد تکه ها"
+
+#: includes/license_key_generator.php:96 includes/license_key_generator.php:187
+msgid "Chunks Length"
+msgstr "طول کلمات"
+
+#: includes/license_key_generator.php:99 includes/license_key_generator.php:190
+#: includes/license_manager.php:212 includes/license_manager.php:344
+#: includes/metabox_licenses_list.php:27 includes/metabox_rules_list.php:22
+msgid "Validity"
+msgstr "اعتبار"
+
+#: includes/license_key_generator.php:134
+msgid "Select"
+msgstr "انتخاب"
+
+#: includes/license_key_generator.php:169 includes/metabox_rules_list.php:76
+msgid "There is no automatic license Key generator rules in the database"
+msgstr "تا کنون هیچ کد لایسنس (شارژی) در دیتابیس ایجاد نشده است!"
+
+#: includes/license_manager.php:41
+msgid "Import result:"
+msgstr "نتیجه درون ریزی:"
+
+#: includes/license_manager.php:45
+msgid "Total"
+msgstr "مجموع"
+
+#: includes/license_manager.php:50
+msgid "Imported"
+msgstr "درون ریزی شده"
+
+#: includes/license_manager.php:55
+msgid "Duplicate"
+msgstr "دوبل کردن"
+
+#: includes/license_manager.php:66 includes/product_metabox.php:52
+msgid "License Keys"
+msgstr "کلید های لایسنس"
+
+#: includes/license_manager.php:75
+msgid "Change status to: Available"
+msgstr "تغییر وضعیت به: دردسترس"
+
+#: includes/license_manager.php:76
+msgid "Change status to: Expired"
+msgstr "تغییر وضعیت به: منقضی شده"
+
+#: includes/license_manager.php:77
+msgid "Change status to: Active"
+msgstr "تغییر وضعیت به: فعال"
+
+#: includes/license_manager.php:78
+msgid "Change status to: Inactive"
+msgstr "تغییر وضعیت به: غیر فعال"
+
+#: includes/license_manager.php:79
+msgid "Change status to: Sold"
+msgstr "تغییر وضعیت به: فروخته شده"
+
+#: includes/license_manager.php:80
+msgid "Change status to: Returned"
+msgstr "تغییر وضعیت به: بازگشت خورده"
+
+#: includes/license_manager.php:139
+msgid "Filter:"
+msgstr "فیلتر:"
+
+#: includes/license_manager.php:141
+msgid "License key"
+msgstr "کلید لایسنس"
+
+#: includes/license_manager.php:143
+msgid "Extended Filter"
+msgstr "فیلتر گسترش یافته"
+
+#: includes/license_manager.php:146
+msgid "Customer First Name"
+msgstr "نام خریدار"
+
+#: includes/license_manager.php:147
+msgid "Customer E-mail"
+msgstr "ایمیل خریدار"
+
+#: includes/license_manager.php:153
+msgid "Product ID - Product Name"
+msgstr "شناسه محصول - نام محصول"
+
+#: includes/license_manager.php:174
+msgid "License key Status"
+msgstr "وضعیت لایسنس"
+
+#: includes/license_manager.php:184
+msgid "Filter"
+msgstr "فیلتر"
+
+#: includes/license_manager.php:185
+msgid "Clear Filter Result"
+msgstr "پاک کردن نتایج فیلتر"
+
+#: includes/license_manager.php:189
+msgid "1. You can just use a part of the First name not the whole name."
+msgstr ""
+
+#: includes/license_manager.php:190
+msgid "2. You Don't have to use all the options."
+msgstr ""
+
+#: includes/license_manager.php:192
+msgid ""
+"3. Extended Filter is for HTML/Multi-line license keys, use the unique part "
+"of the license key not the whole code, Make sure to use all the filter "
+"option possible to narrow down the number of keys that have to be processed."
+msgstr ""
+
+#: includes/license_manager.php:194
+msgid ""
+"4. Enable Extended Filter to filter by a part of the license key not the "
+"whole key."
+msgstr ""
+
+#: includes/license_manager.php:206 includes/license_manager.php:338
+msgid "Owner"
+msgstr "مالک"
+
+#: includes/license_manager.php:208 includes/license_manager.php:340
+#: includes/metabox_licenses_list.php:29
+msgid "Deliver times"
+msgstr "تعداد تحویل"
+
+#: includes/license_manager.php:209 includes/license_manager.php:341
+msgid "Created"
+msgstr "ایجاد شده"
+
+#: includes/license_manager.php:210 includes/license_manager.php:342
+msgid "Activated"
+msgstr "فعال شده"
+
+#: includes/license_manager.php:211 includes/license_manager.php:343
+msgid "Expires"
+msgstr "تاریخ انقضاء"
+
+#: includes/license_manager.php:257
+msgid "No Validity Period"
+msgstr "بدون دوره اعتبار"
+
+#: includes/license_manager.php:265
+msgid "Days"
+msgstr "روزها"
+
+#: includes/license_manager.php:281
+msgid "Order #"
+msgstr "شماره سفارش #"
+
+#: includes/license_manager.php:322
+msgid "There is no license key in the database"
+msgstr "درون دیتابیس ، هیچ کد لایسنسی وجود ندارد"
+
+#: includes/license_manager.php:355
+msgid "Use this if you want to replace a license key in the order page, Ctrl+C"
+msgstr ""
+"اگر میخواهید کلید مجوز را در صفحه سفارش، جایگزین کنید، از  Ctrl + C استفاده "
+"کنید "
+
+#: includes/lm_export.php:12
+msgid "Export License Manager Data & Settings"
+msgstr "برون بری لایسنس ها و پیکربندی های افزونه"
+
+#: includes/lm_export.php:17
+msgid "1. Export License Keys"
+msgstr "1. برون بری لایسنس ها"
+
+#: includes/lm_export.php:64 includes/lm_export.php:119
+#: includes/lm_export.php:173
+msgid "Export License Keys"
+msgstr "برون بری لایسنس ها"
+
+#: includes/lm_export.php:71
+msgid "2. Export License Keys (Editable Unencrypted License keys)"
+msgstr "2. برون بری لایسنس ها (بدون رمز گذاری و قابل ویرایش)"
+
+#: includes/lm_export.php:72
+msgid ""
+"Note: Use this option if you are going to edit the file in Excel or any "
+"other CSV file editor."
+msgstr ""
+
+#: includes/lm_export.php:126
+msgid "3. Export License Keys (Unencrypted License keys)"
+msgstr "3. برون بری لایسنس ها (بدون رمز گذاری)"
+
+#: includes/lm_export.php:180
+msgid "4. Export Generator Rules"
+msgstr "4. برون بری قواعد سازنده خودکار"
+
+#: includes/lm_export.php:210
+msgid "Export Generator Rules"
+msgstr "برون بری قواعد سازنده خودکار"
+
+#: includes/lm_export.php:217
+msgid "5. Export Plugin Settings"
+msgstr "5. برون بری تنظیمات افزونه"
+
+#: includes/lm_export.php:223
+msgid "Export Plugin Settings"
+msgstr "برون بری تنظیمات افزونه"
+
+#: includes/lm_import.php:12
+msgid "Import License Manager Data & Settings"
+msgstr "درون ریزی داده های افزونه مدیریت لایسنس و کارت شارژ ووکامرس"
+
+#: includes/lm_import.php:18
+msgid "1. Import Image License Keys From .zip File"
+msgstr "1. درون ریزی تصویر کلیدهای لایسنس از فایل .zip"
+
+#: includes/lm_import.php:24
+msgid "A zip file that contains image license keys(No sub-folders)"
+msgstr ""
+
+#: includes/lm_import.php:26
+msgid "Zip File"
+msgstr "فایل Zip"
+
+#: includes/lm_import.php:132 includes/lm_import.php:294
+#, fuzzy
+#| msgid "keep Expiration Date fields empty if your product doesn't expire"
+msgid "Keep Expiration Date fields empty if your product doesn't expire"
+msgstr ""
+"اگر قصد دارید تاریخ انقضایی برای لایسنس ها ایجاد نشود ، تاریخ را خالی بگذارید"
+
+#: includes/lm_import.php:152 includes/lm_import.php:314
+#: includes/lm_import.php:338 includes/lm_import.php:361
+#: includes/lm_import.php:384 includes/lm_import.php:409
+msgid "Import License Keys"
+msgstr "درون ریزی لایسنس ها"
+
+#: includes/lm_import.php:153
+msgid "Upload progress:"
+msgstr ""
+
+#: includes/lm_import.php:162
+msgid "2. Import License Keys From .txt File"
+msgstr "2. درون ریزی کلید های لایسنس از فایل .txt (فایل متنی)"
+
+#: includes/lm_import.php:168
+msgid "A text file that contains license keys only one key in each line"
+msgstr ""
+"یک فایل متنی شامل کلید های لایسنس ، در هر خط یک لایسنس و یا کد شارژ وارد کنید"
+
+#: includes/lm_import.php:170 includes/lm_import.php:330
+#: includes/lm_import.php:353 includes/lm_import.php:376
+#: includes/lm_import.php:401 includes/lm_import.php:423
+msgid "CSV File"
+msgstr "فایل CSV"
+
+#: includes/lm_import.php:322
+#, fuzzy
+#| msgid "Import License Keys"
+msgid "3. Import License Keys"
+msgstr "درون ریزی لایسنس ها"
+
+#: includes/lm_import.php:328 includes/lm_import.php:374
+#: includes/lm_import.php:399
+msgid "CSV file generated by the plugin in the export page"
+msgstr "فایل های CSV ساخته شده بر اساس صفحه برون بری افزونه مدیریت لایسنس"
+
+#: includes/lm_import.php:345
+msgid ""
+"4. Import License Keys (File modified in Excel or any other CSV file editor)"
+msgstr ""
+
+#: includes/lm_import.php:346
+msgid ""
+"Note: Only file exported using \"Export License Keys (Editable Unencrypted "
+"License keys)\" are supported by this option."
+msgstr ""
+
+#: includes/lm_import.php:368
+#, fuzzy
+#| msgid "Import License Keys (Unencrypted License Keys)"
+msgid "5. Import License Keys (Unencrypted License Keys)"
+msgstr "درون ریزی لایسنس ها (بدون رمز گذاری)"
+
+#: includes/lm_import.php:393
+#, fuzzy
+#| msgid "Import License Keys (Compatibility Mode)"
+msgid "6. Import License Keys (Compatibility Mode)"
+msgstr "درون ریزی لایسنس ها (رمز گذاری)"
+
+#: includes/lm_import.php:416
+#, fuzzy
+#| msgid "Import Generator Rules"
+msgid "7. Import Generator Rules"
+msgstr "درون ریزی قواعد سازنده خودکار"
+
+#: includes/lm_import.php:431
+msgid "Import Generator Rules"
+msgstr "درون ریزی قواعد سازنده خودکار"
+
+#: includes/lm_import.php:438
+#, fuzzy
+#| msgid "Import Plugin Settings"
+msgid "8. Import Plugin Settings"
+msgstr "درون ریزی تنظیمات افزونه"
+
+#: includes/lm_import.php:445
+msgid ".fslmsettings File"
+msgstr "فایل fslmsettings"
+
+#: includes/lm_import.php:453
+msgid "Import Plugin Settings"
+msgstr "درون ریزی تنظیمات افزونه"
+
+#: includes/metabox_licenses_list.php:19
+msgid "Total available keys for all variations:"
+msgstr ""
+
+#: includes/metabox_licenses_list.php:23
+msgid "Variation ID"
+msgstr "شناسه متغیر"
+
+#: includes/metabox_licenses_list.php:26
+msgid "Expires on"
+msgstr "تاریخ انقضا"
+
+#: includes/metabox_licenses_list.php:28
+msgid "Instances"
+msgstr "موارد"
+
+#: includes/metabox_licenses_list.php:93
+msgid "There is no available license key in the database for this product"
+msgstr "هیچ لایسنس فعالی برای این محصول در دیتابیس موجود نیست"
+
+#: includes/metabox_rules_list.php:15
+msgid "ID "
+msgstr "شناسه "
+
+#: includes/metabox_rules_list.php:16
+msgid "Variation "
+msgstr "متغیر "
+
+#: includes/metabox_rules_list.php:17
+msgid "Prefix "
+msgstr "پیشوند "
+
+#: includes/metabox_rules_list.php:18
+msgid "Chunks Number "
+msgstr "تعداد تکه ها "
+
+#: includes/metabox_rules_list.php:19
+msgid "Chunks Length "
+msgstr "طول کلمات "
+
+#: includes/metabox_rules_list.php:20
+msgid "Suffix "
+msgstr "پسوند "
+
+#: includes/metabox_rules_list.php:21
+msgid "Instance "
+msgstr "نمونه "
+
+#: includes/metabox_rules_list.php:23
+msgid "Active "
+msgstr "فعال "
+
+#: includes/product_metabox.php:51
+msgid "Basic"
+msgstr "اصلی"
+
+#: includes/product_metabox.php:53
+msgid "License Generator"
+msgstr "سازنده لایسنس"
+
+#: includes/product_metabox.php:54 includes/settings_page.php:29
+msgid "API"
+msgstr "API"
+
+#: includes/product_metabox.php:62
+msgid "Delivered Quantity"
+msgstr "تعداد قابل تحویل"
+
+#: includes/product_metabox.php:71
+msgid "The number of license key to be delivered upon purchase."
+msgstr "تعداد دفعاتی که لایسنس می تواند برای هر بار پرداخت تحویل مشتری شود."
+
+#: includes/product_metabox.php:79 includes/settings_page.php:147
+msgid "Show Delivered License Keys In "
+msgstr "نمایش کلید لایسنس در "
+
+#: includes/product_metabox.php:86 includes/settings_page.php:154
+msgid "E-mail And Website"
+msgstr ""
+
+#: includes/product_metabox.php:87 includes/settings_page.php:155
+msgid "E-mail"
+msgstr "ایمیل + پیامک (نیازمند افزونه پیامک ووکامرس)"
+
+#: includes/product_metabox.php:88 includes/settings_page.php:156
+msgid "Website"
+msgstr "وب سایت + پیامک (نیازمند افزونه پیامک ووکامرس)"
+
+#: includes/product_metabox.php:92 includes/settings_page.php:160
+msgid ""
+"<strong>E-mail:</strong> The buyer will receive the key in an "
+"email<br><strong>Website:</strong> The buyer will be asked to click a link "
+"in the email to go to the website to see the license key, so you can collect "
+"data such as IP address, location..."
+msgstr ""
+"<strong>ایمیل:</strong> خریدار یک ایمیل حاوی اطلاعات لایسنس خریداری شده "
+"دریافت می کند<br><strong>وب سایت:</strong> خریدار درون ایمیل خود یک لینک "
+"متصل به وب سایت دریافت می کند که می بایست حتما وارد حساب کاربری خود شود تا "
+"بتواند اطلاعات لایسنس را دریافت کند."
+
+#: includes/product_metabox.php:101 includes/settings_page.php:169
+msgid "Display License Key As"
+msgstr "نمایش کد ها به صورت"
+
+#: includes/product_metabox.php:108 includes/settings_page.php:176
+msgid "Text and Image"
+msgstr "متن و تصویر"
+
+#: includes/product_metabox.php:109 includes/settings_page.php:177
+msgid "Text Only"
+msgstr "فقط متن"
+
+#: includes/product_metabox.php:110 includes/settings_page.php:178
+msgid "Image Only"
+msgstr "فقط تصویر"
+
+#: includes/product_metabox.php:114 includes/settings_page.php:182
+msgid "What to show the buyer in the emails and order history"
+msgstr ""
+"انتخاب کنید که کاربر لایسنس را در ایمیل خود داشته باشد و یا بتواند درون "
+"تاریخچه سفارش های خود در وب سایت ببیند"
+
+#: includes/product_metabox.php:120
+#, fuzzy
+#| msgid "Enable Licensing for this Product/Variation"
+msgid "Enable sending license keys for this Product/Variation"
+msgstr "فعال سازی لایسنس برای این محصول/متغیر"
+
+#: includes/product_metabox.php:137
+#, fuzzy
+#| msgid "Prefix"
+msgid "Import Prefix"
+msgstr "پیشوند"
+
+#: includes/product_metabox.php:148
+#, fuzzy
+#| msgid "Suffix"
+msgid "Import Suffix"
+msgstr "پسوند"
+
+#: includes/product_metabox.php:183
+#, fuzzy
+#| msgid "Variation ID"
+msgid "Variation Import Prefix"
+msgstr "شناسه متغیر"
+
+#: includes/product_metabox.php:194
+#, fuzzy
+#| msgid "Variation ID"
+msgid "Variation Import Suffix"
+msgstr "شناسه متغیر"
+
+#: includes/product_metabox.php:211
+msgid "Available license key for this product"
+msgstr "لایسنس های در دسترس برای این محصول"
+
+#: includes/product_metabox.php:222
+msgid "Add New License Key for this product"
+msgstr "افزودن کد لایسنس جدید برای این محصول"
+
+#: includes/product_metabox.php:330
+msgid ""
+"Leave all fields blank if your product doesn't require an expiration date"
+msgstr ""
+"در صورتی که نمیخواهید تاریخ انقضا را مشخص کنید تمام فیلد ها را خالی رها کنید"
+
+#: includes/product_metabox.php:359
+msgid "Automatic License key generator settings"
+msgstr "پیکربندی سازنده کد لایسنس خودکار"
+
+#: includes/product_metabox.php:374
+#, fuzzy
+#| msgid "Enable License Key Generator fir this product/Variation"
+msgid "Enable License Key Generator for this product/Variation"
+msgstr "فعال سازی سازنده لایسنس خودکار برای این محصول/متغیر"
+
+#: includes/product_metabox.php:379
+msgid ""
+"Use this option if you are selling a product that requires a license key "
+"generated for every purchase, like digital products (themes, templates, "
+"software products ...) you don't need to manually add license keys to use "
+"this option, but if you do your buyer will first get license keys from the "
+"manually added ones, then the system wil start generating license keys when "
+"they run out"
+msgstr ""
+"از این گزینه می توانید برای ساخت خودکار کد لایسنس برای محصولاتی مانند (نرم "
+"افزارها، قالب ها و اسکریپت ها و...) استفاده کنید و شما نیازی ندارید که از "
+"قبل کلید های لایسنس اماده ایجاد کنید و این وظیفه را به سازنده خودکار لایسنس "
+"می سپارید"
+
+#: includes/product_metabox.php:380
+msgid "No license key will be generated if this option is <b>unchecked</b>"
+msgstr "No license key will be generated if this option is <b>unchecked</b>"
+
+#: includes/product_metabox.php:472
+msgid "Extra data for API use:"
+msgstr "اطلاعات اضافی برای استفاده API:"
+
+#: includes/product_metabox.php:476
+msgid "Software Name"
+msgstr "نام نرم افزار"
+
+#: includes/product_metabox.php:488
+msgid "Software ID"
+msgstr "شناسه نرم افزار"
+
+#: includes/product_metabox.php:500
+msgid "Software Version"
+msgstr "نسخه نرم افزار"
+
+#: includes/product_metabox.php:512
+msgid "Software Author"
+msgstr "طراح نرم افزار"
+
+#: includes/product_metabox.php:524
+msgid "Software URL"
+msgstr "آدرس نرم افزار"
+
+#: includes/product_metabox.php:536
+msgid "Software Last Update"
+msgstr "آخرین بروزرسانی نرم افزار"
+
+#: includes/product_metabox.php:548
+msgid "Software Extra Data"
+msgstr "اطلاعات بیشتر نرم افزار"
+
+#: includes/product_metabox.php:556
+msgid ""
+"Extra data to get through the API that are not covered by the above "
+"fields<br><b>This field support JSON</b>"
+msgstr "اطلاعات اضافه<br/> این گزینه از JSON پشتیبانی می کند"
+
+#: includes/product_metabox.php:564
+msgid "Save Settings"
+msgstr "ذخیره تنظیمات"
+
+#: includes/product_metabox.php:576
+msgid "Reload Metabox"
+msgstr "بارگذاری مجدد جعبه متا"
+
+#: includes/settings_page.php:20
+msgid "License Manager Settings"
+msgstr "پیکربندی مدیریت لایسنس"
+
+#: includes/settings_page.php:23
+msgid "General"
+msgstr "عمومی"
+
+#: includes/settings_page.php:24 includes/settings_page.php:609
+msgid "Order Status"
+msgstr "وضعیت سفارش"
+
+#: includes/settings_page.php:25
+msgid "License Keys Generator"
+msgstr "سازنده لایسنس"
+
+#: includes/settings_page.php:26
+msgid "Notifications"
+msgstr "اعلان ها"
+
+#: includes/settings_page.php:27 includes/settings_page.php:425
+msgid "Email Template"
+msgstr "قالب ایمیل"
+
+#: includes/settings_page.php:28
+msgid "Encryption"
+msgstr "رمزنگاری"
+
+#: includes/settings_page.php:30 includes/settings_page.php:686
+msgid "Extra Settings"
+msgstr "تنظیمات اضافی"
+
+#: includes/settings_page.php:44
+msgid "UI Settings"
+msgstr "پیکربندی رابط کاربری"
+
+#: includes/settings_page.php:48
+msgid "Number of rows per page"
+msgstr "تعداد ستون ها در هر صفحه"
+
+#: includes/settings_page.php:57
+msgid "Show Admin bar notifications"
+msgstr "نمایش اطلاع رسانی در نوار مدیریت"
+
+#: includes/settings_page.php:67
+msgid ""
+"Allow The Customer to checkout Even If There is no license Keys for a "
+"Licensed Product"
+msgstr ""
+"اجازه به مشتری برای تکمیل سفارش در صورتی که هیچ لایسنسی برای محصولات لایسنس "
+"دار وجود نداشته باشد"
+
+#: includes/settings_page.php:76
+msgid "Allow Guest Customers To See The License Keys In The Thank-you Page"
+msgstr ""
+
+#: includes/settings_page.php:85
+msgid "License Key Generator Characters"
+msgstr "حروف سازنده لایسنس"
+
+#: includes/settings_page.php:90
+msgid "Characters that can be used to generate license keys"
+msgstr "حروفی که برای ساخت کلید لایسنس مجاز می باشد"
+
+#: includes/settings_page.php:98
+msgid "Property Names"
+msgstr "نام های خصوصیات"
+
+#: includes/settings_page.php:101
+msgid "Meta key name"
+msgstr "نام کلید متا"
+
+#: includes/settings_page.php:106
+msgid ""
+"The values that are already in the database are not going to be changed."
+"<br>This text appears on the emails, order received page, and purchase "
+"history."
+msgstr ""
+"مقادیری که در حال حاضر در پایگاه داده هستند تغییر نمی کنند. <br> این متن بر "
+"روی ایمیل ها، برگه سفارش دریافت شده و تاریخچه خرید ظاهر می شود."
+
+#: includes/settings_page.php:114
+msgid "Meta key name(Plural form)"
+msgstr "نام کلید متا (حالت جمع)"
+
+#: includes/settings_page.php:122
+#, fuzzy
+#| msgid "License Key left"
+msgid "License Keys Delivery"
+msgstr "لایسنس (شارژ) باقی مانده است"
+
+#: includes/settings_page.php:125
+msgid "Key Delivery"
+msgstr ""
+
+#: includes/settings_page.php:139
+msgid "First key added sent first"
+msgstr ""
+
+#: includes/settings_page.php:140
+msgid "Last key added sent first"
+msgstr ""
+
+#: includes/settings_page.php:188
+#, fuzzy
+#| msgid "Expiration Date"
+msgid "Expiration"
+msgstr "تاریخ انقضا"
+
+#: includes/settings_page.php:192
+#, fuzzy
+#| msgid "Export License Keys"
+msgid "Auto expire license keys"
+msgstr "برون بری لایسنس ها"
+
+#: includes/settings_page.php:198
+msgid ""
+"Automatically change license keys status to expired after the expiration "
+"date.<br><b>The status updater runs once every 24 hours.</b>"
+msgstr ""
+
+#: includes/settings_page.php:202
+msgid "Auto Mark as Redeemed"
+msgstr ""
+
+#: includes/settings_page.php:206
+msgid "Mark as redeemed after(days)"
+msgstr ""
+
+#: includes/settings_page.php:212
+msgid ""
+"Automatically mark sold license keys as redeemed. Works only if the license "
+"key status is \"sold\".<br><b>Set to 0 to disable this feature.</b>"
+msgstr ""
+
+#: includes/settings_page.php:219
+msgid "Show the customers \"Set as redeemed\" button in the order page"
+msgstr ""
+
+#: includes/settings_page.php:227
+msgid "Stock Management"
+msgstr ""
+
+#: includes/settings_page.php:231
+msgid "Sync license keys stock with WooCommerce product stock"
+msgstr ""
+
+#: includes/settings_page.php:238
+msgid "1. Enable this option."
+msgstr ""
+
+#: includes/settings_page.php:239
+msgid ""
+"2. Enable stock management at product level for the products that you want "
+"to be automatically synced."
+msgstr ""
+
+#: includes/settings_page.php:240
+msgid "Sync Now"
+msgstr ""
+
+#: includes/settings_page.php:241
+msgid ""
+"The sync now button can be used at anytime to re-sync the license keys stock."
+msgstr "حروفی که برای ساخت کلید لایسنس مجاز می باشد."
+
+#: includes/settings_page.php:247
+msgid "Background stock sync process frequency (Seconds)"
+msgstr ""
+
+#: includes/settings_page.php:253
+msgid "Run stock sync process once every X seconds."
+msgstr ""
+
+#: includes/settings_page.php:259
+#, fuzzy
+#| msgid "License key(s)"
+msgid "Delete License keys"
+msgstr "کد های اختصاص داده شده"
+
+#: includes/settings_page.php:263
+#, fuzzy
+#| msgid "Please add license keys for Product variation"
+msgid "Delete license keys when a product is deleted"
+msgstr "لطفا یک کد شارژ (لایسنس)  برای متغیر محصول ایجاد کنید"
+
+#: includes/settings_page.php:290
+msgid "License Generator Default Settings"
+msgstr "تنظیمات پیشفرض سازنده لایسنس"
+
+#: includes/settings_page.php:380
+msgid "Show notifications in the admin panel when"
+msgstr "نمایش اعلان در نوار بالای مدیریت در هنگام"
+
+#: includes/settings_page.php:384
+msgid "Number of available License Keys for licensable products is under"
+msgstr "تعداد لایسنس های در دسترس برای محصولات به کمتر از این مقدار رسید"
+
+#: includes/settings_page.php:393
+msgid "Send E-mail"
+msgstr "ارسال ایمیل"
+
+#: includes/settings_page.php:402
+msgid "To"
+msgstr "به"
+
+#: includes/settings_page.php:405
+#, fuzzy
+#| msgid "Owner Email Address"
+msgid "E-mail Address"
+msgstr "آدرس ایمیل خریدار"
+
+#: includes/settings_page.php:427
+msgid "Shortcodes:"
+msgstr "کدهای کوتاه:"
+
+#: includes/settings_page.php:432 includes/settings_page.php:435
+msgid "Shortcods:"
+msgstr "کدهای کوتاه:"
+
+#: includes/settings_page.php:433 includes/settings_page.php:436
+msgid "Function:"
+msgstr "تابع:"
+
+#: includes/settings_page.php:445
+msgid "Shipping Last Name"
+msgstr "نام خانوادگی در حمل و نقل"
+
+#: includes/settings_page.php:450
+msgid "Billing First Name"
+msgstr "نام پرداخت کننده"
+
+#: includes/settings_page.php:453
+msgid "Site Name"
+msgstr "نام سایت"
+
+#: includes/settings_page.php:458
+msgid "Billing Last Name"
+msgstr "نام خانوادگی پرداخت کننده"
+
+#: includes/settings_page.php:461
+msgid "Site URL"
+msgstr "آدرس وب سایت"
+
+#: includes/settings_page.php:466
+msgid "Shipping First Name"
+msgstr "نام در حمل و نقل"
+
+#: includes/settings_page.php:469
+msgid "My Account page URL"
+msgstr "آدرس صفحه حساب کاربری"
+
+#: includes/settings_page.php:480
+msgid "Add WooCommerce Default Email Header &amp; Footer"
+msgstr "افزودن سربرگ و پانوشت پیشفرض ووکامرس"
+
+#: includes/settings_page.php:489
+msgid ""
+"Add License Keys to Default WooCommerce Email Too(Default WooCommerce email "
+"without the custom template)"
+msgstr "همچنین افزودن کد های لایسنس به ایمیل پیشفرض ووکامرس"
+
+#: includes/settings_page.php:494
+msgid ""
+"In addition to the email with the custom template the license keys will be "
+"added to WooCommerce's default order email too"
+msgstr " "
+
+#: includes/settings_page.php:501
+#, fuzzy
+#| msgid "A text file that contains license keys only one key in each line"
+msgid ""
+"Send a second email that contain the license keys only and uses the template"
+msgstr ""
+"یک فایل متنی شامل کلید های لایسنس ، در هر خط یک لایسنس و یا کد شارژ وارد کنید"
+
+#: includes/settings_page.php:510
+msgid "Heading"
+msgstr "سرصفحه"
+
+#: includes/settings_page.php:519
+msgid "Subject"
+msgstr "موضوع"
+
+#: includes/settings_page.php:528
+msgid "Message"
+msgstr "پیام"
+
+#: includes/settings_page.php:545
+msgid "Encryption Settings"
+msgstr "پیکربندی رمزگذاری"
+
+#: includes/settings_page.php:561
+msgid "Data Encryption Key"
+msgstr "کلید رمزگذاری داده ها"
+
+#: includes/settings_page.php:567
+msgid "The key used to encrypt/decrypt license keys in the database"
+msgstr "کلید استفاده شده برای ذخیره سازی لایسنس های رمزگذاری شده"
+
+#: includes/settings_page.php:575
+msgid "Data Encryption VI"
+msgstr "VI رمزگذاری داده ها"
+
+#: includes/settings_page.php:581
+msgid "The VI used to encrypt/decrypt license keys in the database"
+msgstr "VI استفاده شده برای ذخیره سازی لایسنس های رمزگذاری شده"
+
+#: includes/settings_page.php:588
+msgid ""
+"Open SSL is not installed on this server license keys will be stored without "
+"encryption "
+msgstr ""
+"Open SSL  در سرور شما نصب نیست و لایسنس ها بدون رمزگذاری درون سرور ذخیره می "
+"شوند "
+
+#: includes/settings_page.php:604
+msgid "License Delivery Settings"
+msgstr "پیکربندی تحویل لایسنس"
+
+#: includes/settings_page.php:610
+msgid "Send"
+msgstr "ارسال"
+
+#: includes/settings_page.php:612
+msgid "Revoke"
+msgstr "ابطال دسترسی"
+
+#: includes/settings_page.php:613
+msgid "Remove the assigned license key and change its status to returned"
+msgstr ""
+"حذف دسترسی لایسنس اختصاصی داده شده و تغییر وضعیت به سفارش بازگشت خورده "
+"(برگشتی)"
+
+#: includes/settings_page.php:617
+msgid "Hide"
+msgstr "مخفی سازی"
+
+#: includes/settings_page.php:618
+msgid ""
+"Hide the assigned license key from the buyer in the order history and emails"
+msgstr ""
+"مخفی سازی دسترسی لایسنس اختصاص داده شده از خریدار در تاریخچه خرید و ایمیل"
+
+#: includes/settings_page.php:690
+msgid "Delete Plugins License Keys Tables Before Deactivating The Plugin"
+msgstr "حذف کد های لایسنس از جدول افزونه قبل از غیر فعال سازی افزونه"
+
+#: includes/settings_page.php:699
+msgid "Delete Plugins Generator Rules Tables Before Deactivating The Plugin"
+msgstr "حذف قواعد سازنده لایسنس از جدول افزونه قبل از غیر فعال سازی افزونه"
+
+#: includes/settings_page.php:708
+msgid "Delete Plugins Licensed Products Tables Before Deactivating The Plugin"
+msgstr "حذف محصولات لایسنس دار  از جدول افزونه قبل از غیر فعال سازی افزونه"
+
+#: includes/settings_page.php:717
+msgid "Enable Debug Logging"
+msgstr ""
+
+#: includes/settings_page.php:739
+msgid "Run database update script"
+msgstr ""
+
+#: includes/settings_page.php:750
+msgid "Customizations"
+msgstr ""
+
+#: includes/settings_page.php:752
+msgid ""
+"Those are features added for some buyer, all customization will be added in "
+"this secret menu so I can keep them updated when I update the plugin.\n"
+"                        <br>Only features that may make the plugin look "
+"overcomplicated will be added here, normal features will be added in the "
+"visible setting menus."
+msgstr ""
+
+#: includes/settings_page.php:757
+msgid "Import prefixes/suffixes in the product page"
+msgstr ""
+
+#: includes/settings_page.php:778
+#, fuzzy
+#| msgid "UI Settings"
+msgid "API Settings"
+msgstr "پیکربندی رابط کاربری"
+
+#: includes/settings_page.php:782
+msgid "Disable API v1"
+msgstr ""
+
+#: includes/settings_page.php:791
+msgid "API Key"
+msgstr ""
+
+#: includes/support.php:21
+msgid "Expired on: "
+msgstr "تاریخ انقضا: "
+
+#: includes/support.php:23
+msgid "Valid until:"
+msgstr "اعتبار:"
+
+#: includes/support.php:34
+msgid "Hi &mdash; If you have a question or you need support please "
+msgstr ""
+
+#: includes/support.php:34
+msgid "open new ticket here"
+msgstr ""
+
+#: includes/support.php:34
+msgid " and we will get back to you as soon as possible."
+msgstr ""
+
+#: includes/support.php:35
+msgid "Make sure to send screenshots of the issue if possible."
+msgstr ""
+
+#: includes/support.php:38
+msgid ""
+"If you have created a ticket before without a user account, PLease use the "
+msgstr ""
+
+#: includes/support.php:38
+msgid "Guest Ticket Login"
+msgstr ""
+
+#: includes/support.php:38
+msgid " form to view your ticket."
+msgstr ""
+
+#: includes/support.php:39
+msgid "Or If you a have created an account "
+msgstr ""
+
+#: includes/support.php:39
+msgid "Login Here"
+msgstr ""
+
+#: includes/support.php:39
+msgid " to view all your tickets."
+msgstr ""
+
+#: includes/support.php:42
+msgid "The fastest way to get support is through our ticketing system."
+msgstr ""
+
+#: includes/support.php:56 includes/welcome.php:54
+msgid "Purchase Code"
+msgstr "شماره خرید (سفارش)"
+
+#: includes/support.php:61
+#, fuzzy
+#| msgid "Supported Until"
+msgid "Support Status"
+msgstr "Supported Until"
+
+#: includes/support.php:73
+msgid "Deactivate license key to transfer to another domain"
+msgstr ""
+
+#: includes/welcome.php:15
+msgid "Welcome to WooCommerce License Manager"
+msgstr "افزونه فروش و مدیریت کارت شارژ و لایسنس"
+
+#: includes/welcome.php:18
+msgid ""
+"Before starting to use the plugin please go through the setting page and "
+"configure the plugin."
+msgstr ""
+"برای استفاده از افزونه ، لطفا کد سفارش و ایمیل خود در WooCommerce.ir را وارد "
+"کنید."
+
+#: includes/welcome.php:22
+msgid "Set your Encryption Keys"
+msgstr "تنظیم کلید های رمزنگاری"
+
+#: includes/welcome.php:22
+msgid ""
+"Set your secret KEY and secret VI, they will be used to encrypt the license "
+"keys in the database"
+msgstr ""
+"لطفا کلید امنیتی و VI امنیتی را وارد کنید. این کلید و رمز در هنگام ذخیره "
+"سازی لایسنس ها در دیتابیس استفاده می شود"
+
+#: includes/welcome.php:23
+msgid "Notifications Settings"
+msgstr "پیکربندی اعلان‌ها"
+
+#: includes/welcome.php:23
+msgid ""
+"Receiver email, and minimum stock quantity before starting to get emails"
+msgstr "ایمیل دریافت کننده و حداقل موجودی انبار قبل از ارسال ایمیل ها"
+
+#: includes/welcome.php:24
+msgid "Order Status Settings"
+msgstr "پیکربندی وضعیت های سفارش"
+
+#: includes/welcome.php:24
+msgid "Set when to send and when to remove license keys"
+msgstr "تنظیم زمان ارسال و زمان برای حذف کلید لایسنس"
+
+#: includes/welcome.php:27
+msgid "Activation"
+msgstr "فعال سازی"
+
+#: includes/welcome.php:45
+msgid "Envato Buyer Username"
+msgstr "نام کاربری شما در ووکامرس فارسی"
+
+#: includes/welcome.php:60
+msgid "You can find your purchase code in your Envato account/downloads"
+msgstr "     "
+
+#~ msgid "v"
+#~ msgstr "v"
+
+#~ msgid "h"
+#~ msgstr "h"
+
+#~ msgid "align"
+#~ msgstr "چیدمان"
+
+#~ msgid "blockquote"
+#~ msgstr "نقل قول"
+
+#~ msgid "p"
+#~ msgstr "p"
+
+#, fuzzy
+#~| msgid "Chunks Number"
+#~ msgid "Chunks"
+#~ msgstr "تعداد تکه ها"
+
+#, fuzzy
+#~| msgid "Chunks Length"
+#~ msgid "Chunk Length"
+#~ msgstr "طول کلمات"
+
+#, fuzzy
+#~| msgid "Activation"
+#~ msgid "Activations"
+#~ msgstr "فعال سازی"
+
+#, fuzzy
+#~| msgid "Deliver times"
+#~ msgid "Delivery"
+#~ msgstr "تعداد تحویل"
+
+#, fuzzy
+#~| msgid "Available license key for this product"
+#~ msgid "Show Available License Keys Count in the Products Table"
+#~ msgstr "لایسنس های در دسترس برای این محصول"
+
+#, fuzzy
+#~| msgid "Update License Key"
+#~ msgid "Duplicate License Keys"
+#~ msgstr "بروزرسانی لایسنس"
+
+#, fuzzy
+#~| msgid "Please add license keys for"
+#~ msgid "Delete product license keys"
+#~ msgstr "لطفا لایسنس (رمز شارژ) جدید برای این محصول ایجاد کنید"
+
+#, fuzzy
+#~| msgid "License Key left"
+#~ msgid "license keys got deleted."
+#~ msgstr "لایسنس (شارژ) باقی مانده است"
+
+#, fuzzy
+#~| msgid "time(s)"
+#~ msgid "times"
+#~ msgstr "دفعات"
+
+#~ msgid "Invalid Purchase Code"
+#~ msgstr " کد خرید اشتباه است "

@@ -1,0 +1,650 @@
+.fslm {
+    color: #000;
+}
+
+.fslm.metabox {
+    color: #000;
+    padding: 10px !important;
+}
+
+.fslm .pages {
+    float: right;
+}
+
+.fslm .nav-tab-wrapper {
+    margin-bottom: 14px !important;
+}
+
+.fslm h1 {
+    margin-bottom: 14px !important;
+}
+
+.fslm th {
+    font-size: 12px !important;
+    font-weight: 600;
+    cursor: pointer;
+    color: #4184D7;
+    padding: 8px 10px !important;
+}
+
+.fslm .sorting-indicator {
+    display: inline-block;
+    margin: 0;
+}
+
+.fslm .sorting-indicator::before {
+    display: inline-block;
+    top: 3px;
+    left: 4px;
+}
+
+.fslm th:hover > .sorting-indicator {
+    display: inline-block;
+    visibility: visible;
+}
+
+.fslm #license_id {
+    width: 6%;
+}
+
+.fslm #product_id {
+    width: 12%;
+}
+
+.fslm #license_key {
+    width: 20%;
+}
+
+.fslm #owner_name {
+    width: 16%;
+}
+
+.fslm #max_instance_number {
+    width: 8%;
+}
+
+.fslm #creation_date {
+    width: 10%;
+}
+
+.fslm #activation_date {
+    width: 10%;
+}
+
+.fslm #expiration_date {
+    width: 11%;
+}
+
+.fslm #valid {
+    width: 8%;
+}
+
+.fslm #license_status {
+    width: 7.5%;
+}
+
+.fslm .input-box {
+    margin-bottom: 25px;
+}
+
+.fslm .input-box div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fslm .input-box .input-field {
+    width: 100% !important;
+}
+
+.fslm .input-box .label {
+    width: 235px;
+    color: #000;
+    padding-right: 15px;
+}
+
+.fslm .input-box .input {
+    width: 300px;
+    position: relative;
+}
+
+.fslm .input-box .tip {
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 0;
+    color: #7a7a7a;
+}
+
+.fslm .date {
+    width: 95px !important;
+    vertical-align: middle;
+    margin-right: 1px;
+}
+
+.fslm .list tr {
+    height: 50px;
+}
+
+.fslm .fsactions {
+    width: 420px;
+}
+
+.fslm .fsactions span{
+    position: relative;
+    z-index: 10000000000;
+}
+
+.fslm .center {
+    text-align: center;
+}
+
+.fslm .inside {
+    padding: 10px !important;
+}
+
+.fslm .submit {
+    float: none !important;
+    padding: 0 !important;
+}
+
+.fslm #the-list .check-column {
+    padding: 8px 0 0 11px !important;
+}
+
+.fslm .postbox {
+    padding: 10px !important;
+    margin-bottom: 15px !important;
+}
+
+.fslm #mbs_save_response {
+    display: none;
+    background: #4184D7;
+    margin: 10px 0;
+    padding: 15px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#fslm_resend_respons {
+    display: none;
+    background: #4184D7;
+    margin-top: 10px;
+    padding: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.fslm textarea {
+    width: 100% !important;
+    min-height: 100px !important;
+}
+
+.fslm_nb_notif {
+    display: inline-block;
+    background: #CF000F;
+    line-height: 17px !important;
+    padding: 2px 5px !important;
+    border-radius: 1px !important;
+    color: #FFF;
+    font-weight: 600 !important;
+    box-shadow: 0px 0px 1px RGBA(0, 0, 0, 0.53);
+    margin-left: 11px !important;
+}
+
+.fslm_warning {
+    border-left: 5px solid #D35400;
+    padding: 10px !important;
+    cursor: pointer !important;
+}
+
+.ilksrc {
+    width: 100%;
+}
+
+
+.fslm #display,
+.fslm #show_in,
+.fslm #deliver_x_times {
+    width: 8%;
+}
+
+.fslm .helper {
+    position: absolute;
+    right: -26px;
+    top: 6px;
+    color: #FFF;
+    background: #2ea2cc;
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 100%;
+    line-height: 15px;
+    cursor: pointer;
+    z-index: 10000;
+}
+
+.fslm .helper .tip {
+    display: none;
+    width: 250px;
+    text-align: left;
+    background: #efefef;
+    padding: 9px;
+    border-radius: 2px;
+    color: #000;
+    font-size: 12px;
+    line-height: 17px;
+    box-sizing: border-box;
+    position: relative;
+    top: -16px;
+    right: -26px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.fslm .helper.extra {
+    width: 90px;
+    border-radius: 2px;
+    right: -105px;
+    
+    top: 30px;
+    z-index: 8000;
+    height: auto;
+    background: none;
+}
+
+.fslm .helper.extra span {
+    display: inline-block;
+    padding: 2px;
+    background: #2ea2cc;
+ }
+
+.fslm .helper.extra .tip {
+    width: 350px !important;
+    top: 8px;
+}
+
+.fslm .helper:hover .tip {
+    display: block;
+}
+
+.fslm td {
+    position: relative !important;
+}
+
+.fslm thead .helper {
+    position: absolute;
+    display: inline-block;
+    right: inherit !important;
+    margin-left: 8px;
+    top: 10px !important;
+}
+
+.fslm .helper:hover .tip {
+    z-index: 100000 !important;
+}
+
+
+.fslm .mb15 {
+    margin-bottom: 15px;
+    display: block;
+}
+
+.fslm .mb {
+    margin-bottom: 50px;
+}
+
+.fslm-metabox-actions-content.fslm {
+    display: inline-block;
+    float: right;
+}
+
+.fslm-metabox-actions-content.fslm .input-box {
+    margin: 0;
+    padding: 0;
+}
+
+.fslm-metabox-actions-content.fslm .input-box .label {
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    vertical-align: top;
+    padding-right: 0;
+}
+
+.fslm-metabox-actions-content.fslm .input-box .input {
+    vertical-align: top;
+}
+
+#fslm-wc-licenses .inside {
+    padding: 0;
+    margin: 0;
+}
+
+.fslm.metabox {
+    padding: 0px !important;
+}
+
+.fslm.metabox #fslm_tabs {
+    margin: 0;
+    width: 20%;
+    float: left;
+    line-height: 1em;
+    padding: 0 0 10px;
+    position: relative;
+    background-color: #fafafa;
+    border-right: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+.fslm.metabox #fslm_tabs li {
+    margin: 0;
+}
+
+.fslm.metabox #fslm_tabs li a {
+    margin: 0;
+    padding: 10px;
+    display: block;
+    box-shadow: none;
+    text-decoration: none;
+    line-height: 20px!important;
+    border-bottom: 1px solid #eee;
+    font-weight: 500;
+}
+
+.fslm.metabox #fslm_tabs li a.active {
+    color: #555;
+    position: relative;
+    background-color: #eee;
+}
+
+.fslm.metabox .tab-content {
+    float: left;
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.fslm.metabox .tab-content .the-tab-content {
+    margin-bottom: 50px;
+}
+
+.fslm.metabox .tab-content #api,
+.fslm.metabox .tab-content #lg,
+.fslm.metabox .tab-content #lk {
+    display: none;
+}
+
+.fslm .sub-input-box .label{
+    width: auto !important;
+}
+
+.fslm .sub-input-box .input{
+    width: auto !important;
+}
+
+#fslm_json_ui {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-right: 45px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#fslm_json_ui #jsoncontainer {
+    background: #FFF;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+div#fslm_json_ui_close {
+    color: #fff !important;
+    position: absolute;
+    z-index: 1000000;
+    right: 45px;
+    font-size: 17px;
+    background: #ef2c2c;
+    padding: 5px 11px 6px;
+    text-align: center;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+div#fslm_json_ui button {
+    background: #2ea2cc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: #FFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+div#jsoncontainer .row {
+    width: 30%;
+    display: inline-block;
+    padding-right: 3%;
+    vertical-align: top;
+}
+
+div#jsoncontainer .row .row {
+    width: 100%;
+    display: inline-block;
+    padding-right: 0;
+}
+
+div#jsoncontainer .row p {
+    font-style: normal !important;
+    display: block !important;
+    font-size: 14px !important;
+    margin-bottom: 20px !important;
+}
+
+.fslm .input-box .input.xl {
+    width: 75% !important;
+}
+
+.fslm_mail_message {
+    width: 100% !important;
+    height: 350px !important;
+}
+
+.fslm .filter_title {
+    font-weight: 600;
+    font-size: 16px;
+    vertical-align: middle;
+    margin-right: 14px;
+}
+
+.fslm .alignleft.actions.bulkactions select {
+    vertical-align: top;
+	float: none !important;
+}
+
+.fslm-filter {
+    padding: 10px !important;
+    background: #FFF;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 10px !important;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+.fslm-filter p {
+    margin-bottom: 0 !important;
+    margin-top: 0px;
+}
+
+.fslm-filter p.first {
+    margin-bottom: 0 !important;
+    margin-top: 5px;
+}
+
+.fslm-filter label {
+    padding: 4px;
+}
+
+.fslm-filter .select2 {
+    vertical-align: top !important;
+}
+
+.fslm .action-form {
+    width: 100%;
+}
+
+.fslm .action-form input {
+    width: 55px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.fslm .action-form a {
+    width: 36px !important;
+    text-align: center;
+    padding: 0 !important;
+    margin: 0 !important;
+
+}
+
+.fslm-percent {
+    display: none;
+    color: #FFF;
+    background: #7c8f96;
+    padding: 6px;
+    border-radius: 2px;
+}
+
+.fslm .error {
+    color: #cf000f;
+    font-weight: bold;
+}
+
+.fslm .hide {
+    display: none;
+}
+
+.fslm .rhidden {
+    font-weight: bold;
+    display: none;
+    margin-right: 4px;
+}
+
+.fslm .helper.filter-helper {
+
+    right: unset;
+    top: -6px;
+
+
+}
+
+.fslm .fslm-filter input,
+.fslm .fslm-filter select,
+.fslm .fslm-filter .select2,
+.fslm .fslm-filter button {
+    margin: 2px;
+}
+
+.fslm .filter-helper-container {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+}
+
+.fslm .fslm-filter-count-container {
+    display: none;
+    width: 100%;
+    text-align: right;
+}
+
+.fslm .fslm-filter-count {
+
+}
+
+table.wp-list-table .column-licenses {
+    width: 7ch;
+}
+
+@media screen and (max-width: 782px) {
+    .fslm #rules,
+    .fslm #licenses {
+        width: 100% !important;
+    }
+
+    .fslm #licenses thead tr:first-child,
+    .fslm #rules thead tr:first-child,
+    .fslm #licenses rules tr:first-child,
+    .fslm #rules tfoot tr:first-child {
+        display: none;
+    }
+
+    .fslm #licenses tr,
+    .fslm #rules tr {
+        display: grid;
+    }
+
+    .fslm-filter input[type="text"], .fslm-filter select, .fslm-filter button {
+        margin: 4px !important;
+        width: 100% !important;
+        height: 42px !important;
+    }
+
+    .fslm-filter input[type="checkbox"] {
+        margin: 4px 4px 4px 0px !important;
+    }
+
+    .fslm-filter select {
+        width: 100% !important;
+        height: 42px !important;
+        float: inherit;
+        clear: both !important;
+    }
+
+    .fslm-filter span {
+        padding-left: 2px !important;
+        width: 100% !important;
+        height: 42px !important;
+        display: block;
+        line-height: 28px !important;
+
+    }
+
+    .fslm-filter .select2-selection__arrow b {
+        left: 97% !important;
+    }
+
+    .fslm-filter .dropdown-wrapper {
+        display: none !important;
+    }
+
+    .fslm-filter select {
+
+        width: 100% !important;
+        height: 42px !important;
+        float: inherit;
+        clear: both !important;
+        max-width: 100%;
+
+    }
+
+    .fslm #licenses .row-actions.fsactions,
+    .fslm #rules .row-actions.fsactions {
+
+        display: inline-block !important;
+
+    }
+
+    .fslm .rhidden {
+        display: inline-block;
+    }
+
+}
