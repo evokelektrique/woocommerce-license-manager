@@ -386,7 +386,7 @@ class FS_WC_licenses_Manager {
 
 
 
-    public function get_encrypted_license_key_status($license_key_encrypted){
+    public function get_encrypted_license_key_status($license_key_encrypted, $all = false){
         global $wpdb;
 
         if(get_option('fslm_auto_expire', '') == 'on') {
@@ -394,6 +394,10 @@ class FS_WC_licenses_Manager {
         }
 
         $query = $wpdb->get_results("SELECT * FROM {$wpdb->prefix}wc_fs_product_licenses_keys WHERE license_key='{$license_key_encrypted}'");
+
+        if($all) {
+            return $query;
+        }
 
         if($query){
             $query = $query[0];
@@ -2307,13 +2311,14 @@ class FS_WC_licenses_Manager {
         return $val;
     }
 
-    function json_data_formatting_order_history($json, $order_id = 0){
+    public function json_data_formatting_order_history($json, $order_id = 0, $output_array = false) {
 
         $values = json_decode($json, true);
         $val = "";
         $visible_key_found = false;
+        $output = [];
 
-        if($values){
+        if($values) {
             $val = "";
 
             if(!is_account_page()) {
@@ -2387,11 +2392,21 @@ class FS_WC_licenses_Manager {
                         
                     // Order date
                     $order_date = (new WC_Order($order_id))->order_date;
-
+                    $order_date = human_time_diff( strtotime($order_date), current_time( 'timestamp' ) );
                     // Expire date
                     $expire_date = "";
                     if(!empty($value['expiration_date'])) {
                         $expire_date = 'تاریخ انقضا:</strong> ' . human_time_diff( strtotime($value['expiration_date']), current_time( 'timestamp' ) ) . '  دیگر';
+                    }
+
+                    if($output_array) {
+                        $output[] = [
+                            "created_at" => reset($this->get_encrypted_license_key_status($value['license_key'], true))->{'creation_date'},
+                            "order_date" => $order_date,
+                            "license_key" => $license_key,
+                            "redeem" => $redeem,
+                            "expire_date" => $expire_date
+                        ];
                     }
 
                     $val .= '<div class="is-block mb-4 box has-background-white is-shadowless custom_rounded order_note">
@@ -2407,7 +2422,7 @@ class FS_WC_licenses_Manager {
                                 <div class="level-left is-align-self-flex-end">
                                    <div class="level-item">
                                       <span class="icon icon-clock mb-1 ml-2" style="vertical-align: middle;"></span>
-                                      <span class="has-text-weight-bold has-text-dark is-size-custom is-pulled-left">' . human_time_diff( strtotime($order_date), current_time( 'timestamp' ) ) . ' پیش
+                                      <span class="has-text-weight-bold has-text-dark is-size-custom is-pulled-left">' . $order_date . ' پیش
                                       </span>
                                    </div>
                                 </div>
@@ -2426,11 +2441,18 @@ class FS_WC_licenses_Manager {
             }
 
             $val .= "";
+
         }
 
         if($visible_key_found == false) $val = '';
 
-        return $val;
+        if($output_array) {
+            return $output;
+        }
+
+        if(!is_account_page()) {
+            return $val;
+        }
     }
 
     function fslm_generator_rules_callback(){
@@ -6306,6 +6328,7 @@ class FSLM_Settings {
 
 if (  class_exists( 'WooCommerce' ) || (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_option('active_plugins')))) ) {
 	$fs_wc_licenses_manager = new FS_WC_licenses_Manager();
+    $GLOBALS['fs_wc_licenses_manager'] = $fs_wc_licenses_manager;
 	
 	if (is_admin()) {
 		$fslm_settings = new FSLM_Settings();
