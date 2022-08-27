@@ -3171,6 +3171,7 @@ class FS_WC_licenses_Manager {
 
         if(add_post_meta($order_id, 'fslm_licensed', 'true', true)){
          
+            $temp_licenses = [];
 	        $license_details = array();
             $index = 0;
 
@@ -3199,6 +3200,13 @@ class FS_WC_licenses_Manager {
                             $valid                     = $q->valid;
                             $remaining_delivre_x_times = $q->remaining_delivre_x_times;
 
+                            $temp_license_key = encrypt_decrypt('decrypt', $license_key, ENCRYPTION_KEY, ENCRYPTION_VI);
+                            $temp_license_key = preg_replace( "/\\\\\"|\\\\'/", '"', $temp_license_key);
+
+                            $temp_licenses[] = [
+                                "license_key" => $temp_license_key, 
+                                "expiration_date" => $expiration_date,
+                            ];
                             
                             $served = false;
 
@@ -3378,6 +3386,15 @@ class FS_WC_licenses_Manager {
                 }
             }
 	
+            if(!empty($temp_licenses)) {
+                $order_note_text = "";
+                foreach($temp_licenses as $temp_license) {
+                    $order_note_text .= $temp_license["license_key"] . "<br>";
+                }
+
+                $order->add_order_note( $order_note_text, 1);
+            }
+
 	        $json_license_details = json_encode($license_details);
             add_post_meta($order_id, 'fslm_json_license_details', $json_license_details, true);
 
