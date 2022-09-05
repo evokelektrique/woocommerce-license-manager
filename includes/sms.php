@@ -54,7 +54,7 @@ if ( class_exists( 'FS_WC_licenses_Manager' ) && ! class_exists( 'FS_WC_licenses
 							}
 
 							if ( ( $value['expiration_date'] != '0000-00-00' ) && ( $value['expiration_date'] != '' ) ) {
-								$meta .= ' - (' . __( '<strong>Expires</strong> ', 'pwlm' ) . ' : ' . $this->format_date( $value['expiration_date'] ) . ')';
+								$meta .= ' - (' . __( '<strong>Expires</strong> ', 'pwlm' ) . ' : ' . ')';
 							}
 							$meta = strip_tags( $meta );
 							
